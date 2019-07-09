@@ -18,7 +18,7 @@ const errorPrompt = (err) => {
 fly.interceptors.request.use((request) => {
 	// wx.showNavigationBarLoading()
 	uni.showLoading({
-		title: '加载中'
+		// title: '加载中'
 	});
 	return request
 })
