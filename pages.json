@@ -12,18 +12,40 @@
 			"style": {
 				"navigationBarTitleText": "个人中心"
 			}
+		},
+		{
+			"path": "pages/video/list",
+			"style": {
+				"navigationBarTitleText": "视频"
+			}
+		},
+		{
+			"path": "pages/earnmoney/index",
+			"style": {
+				"navigationBarTitleText": "赚钱"
+			}
 		}
 	],
 	"tabBar": {
 		"color": "#000000",
-		"selectedColor": "#2F85FC",
+		"selectedColor": "#e0620d",
 		"backgroundColor": "#FFFFFF",
 		"borderStyle": "black",
 		"list": [{
 			"pagePath": "pages/list/list",
 			"iconPath": "static/home.png",
 			"selectedIconPath": "static/home-active.png",
-			"text": "资讯"
+			"text": "首页"
+		}, {
+			"pagePath": "pages/video/list",
+			"iconPath": "static/video.png",
+			"selectedIconPath": "static/video-active.png",
+			"text": "视频"
+		}, {
+			"pagePath": "pages/earnmoney/index",
+			"iconPath": "static/earn-money.png",
+			"selectedIconPath": "static/earn-money-active.png",
+			"text": "赚钱"
 		}, {
 			"pagePath": "pages/ucenter/ucenter",
 			"iconPath": "static/center.png",
