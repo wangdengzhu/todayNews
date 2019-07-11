@@ -1,26 +1,41 @@
 {
   "pages": [
-    "pages/detail/detail",
-    "pages/ucenter/ucenter"
+    "pages/details/details",
+    "pages/details/videoDetails",
+    "pages/ucenter/ucenter",
+    "pages/video/list",
+    "pages/task/index"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "新闻资讯",
-    "navigationBarBackgroundColor": "#2F85FC",
-    "backgroundColor": "#FFFFFF"
+    "navigationBarTitleText": "趣闻多",
+    "navigationBarBackgroundColor": "#ec706b",
+    "backgroundColor": "#f8f8f8"
   },
   "tabBar": {
     "color": "#000000",
-    "selectedColor": "#2F85FC",
+    "selectedColor": "#e0620d",
     "backgroundColor": "#FFFFFF",
     "borderStyle": "black",
     "list": [
       {
-        "pagePath": "pages/list/list",
+        "pagePath": "pages/index/index",
         "iconPath": "static/home.png",
         "selectedIconPath": "static/home-active.png",
-        "text": "资讯"
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/video/list",
+        "iconPath": "static/video.png",
+        "selectedIconPath": "static/video-active.png",
+        "text": "视频"
+      },
+      {
+        "pagePath": "pages/task/index",
+        "iconPath": "static/task.png",
+        "selectedIconPath": "static/task-active.png",
+        "text": "任务"
       },
       {
         "pagePath": "pages/ucenter/ucenter",
@@ -32,13 +47,23 @@
   },
   "nvue": {
     "pages": {
-      "pages/list/list.html": {
+      "pages/index/index.html": {
         "window": {
-          "usingComponents": {}
+          "usingComponents": {},
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "",
+                "fontSrc": "/static/font/iconfont.ttf",
+                "fontSize": "22px",
+                "float": "left"
+              }
+            ]
+          }
         }
       }
     },
-    "entryPagePath": "pages/list/list"
+    "entryPagePath": "pages/index/index"
   },
   "nvueCompiler": "uni-app",
   "splashscreen": {

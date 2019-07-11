@@ -10,7 +10,7 @@
     "name": "1.0.0",
     "code": "100"
   },
-  "description": "基于uni-app开发的新闻/资讯类App模板",
+  "description": "基于uni-app开发的新闻/资讯类App",
   "launch_path": "__uniapptabbar.html",
   "developer": {
     "name": "",
@@ -40,7 +40,7 @@
     "statusbar": {
       "immersed": "supportedDevice",
       "style": "light",
-      "background": "#2F85FC"
+      "background": "#ec706b"
     },
     "usingComponents": true,
     "nvueCompiler": "uni-app",

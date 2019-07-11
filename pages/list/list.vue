@@ -4,7 +4,6 @@
 			<view v-for="(tab, index) in tabBars" :key="tab.ref" :class="['swiper-tab-list',tabIndex==index ? 'active' : '']"
 			 :id="tab.ref" :data-current="index" @click="tapTab(index)">{{tab.name}}</view>
 		</scroll-view>
-		<!-- #ifndef MP-BAIDU -->
 		<scroll-view class="list" v-for="(tabItem, idx) in newsList" :key="tabItem.id" v-if="tabIndex === idx" scroll-y
 		 @scrolltolower="loadMore(idx)">
 			<block v-for="(newsItem, newsIndex) in tabItem.data" :key="newsItem.id">
@@ -14,19 +13,6 @@
 				<view class="loading-more">{{loadingText}}</view>
 			</view>
 		</scroll-view>
-		<!-- #endif -->
-		<!-- #ifdef MP-BAIDU -->
-		<view class="scroll-wrap" v-for="(tabItem, idx) in newsList" :key="idx">
-			<scroll-view class="list" v-if="tabIndex === idx" scroll-y @scrolltolower="loadMore(idx)" :style="scrollViewHeight">
-				<block v-for="(newsItem, newsIndex) in tabItem.data" :key="newsIndex">
-					<uni-media-list :options="newsItem" @close="dislike(idx, newsIndex)" @click="goDetail(newsItem)"></uni-media-list>
-				</block>
-				<view class="uni-tab-bar-loading">
-					<view class="loading-more">{{loadingText}}</view>
-				</view>
-			</scroll-view>
-		</view>
-		<!-- #endif -->
 	</view>
 </template>
 <script>
@@ -55,15 +41,23 @@
 				newsList: [],
 				tabIndex: 0,
 				tabBars: [{
-					name: '最新',
+					name: '推荐',
 					id: 0,
 					ref: 'new'
+				}, {
+					name: '热点',
+					id: 23,
+					ref: 'company'
+				}, {
+					name: '社会',
+					id: 23,
+					ref: 'company'
 				}, {
 					name: '大公司',
 					id: 23,
 					ref: 'company'
 				}, {
-					name: '内容',
+					name: '内容疯狂',
 					id: 223,
 					ref: 'content'
 				}, {
@@ -266,7 +260,7 @@
 
 	.swiper-tab-list {
 		font-size: 30upx;
-		width: 150upx;
+		padding: 0 30upx;
 		display: inline-block;
 		text-align: center;
 		color: #555;

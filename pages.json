@@ -1,62 +1,78 @@
 {
-	"pages": [{
-			"path": "pages/list/list",
-			"style": {}
-		},
-		{
-			"path": "pages/detail/detail",
-			"style": {}
-		},
-		{
-			"path": "pages/ucenter/ucenter",
-			"style": {
-				"navigationBarTitleText": "个人中心"
-			}
-		},
-		{
-			"path": "pages/video/list",
-			"style": {
-				"navigationBarTitleText": "视频"
-			}
-		},
-		{
-			"path": "pages/earnmoney/index",
-			"style": {
-				"navigationBarTitleText": "赚钱"
-			}
-		}
-	],
-	"tabBar": {
-		"color": "#000000",
-		"selectedColor": "#e0620d",
-		"backgroundColor": "#FFFFFF",
-		"borderStyle": "black",
-		"list": [{
-			"pagePath": "pages/list/list",
-			"iconPath": "static/home.png",
-			"selectedIconPath": "static/home-active.png",
-			"text": "首页"
-		}, {
-			"pagePath": "pages/video/list",
-			"iconPath": "static/video.png",
-			"selectedIconPath": "static/video-active.png",
-			"text": "视频"
-		}, {
-			"pagePath": "pages/earnmoney/index",
-			"iconPath": "static/earn-money.png",
-			"selectedIconPath": "static/earn-money-active.png",
-			"text": "赚钱"
-		}, {
-			"pagePath": "pages/ucenter/ucenter",
-			"iconPath": "static/center.png",
-			"selectedIconPath": "static/center-active.png",
-			"text": "我的"
-		}]
-	},
-	"globalStyle": {
-		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "新闻资讯",
-		"navigationBarBackgroundColor": "#2F85FC",
-		"backgroundColor": "#FFFFFF"
-	}
+  "pages": [{
+      "path": "pages/index/index",
+      "style": {
+        "app-plus": {
+          "titleNView": {
+            "buttons": [{
+                "text": "\ue606",
+                "fontSrc": "/static/font/iconfont.ttf",
+                "fontSize": "22px",
+                "float": "left"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/details/details",
+      "style": {}
+    },
+    {
+      "path": "pages/details/videoDetails",
+      "style": {}
+    },
+    {
+      "path": "pages/ucenter/ucenter",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/video/list",
+      "style": {
+        "navigationBarTitleText": "视频"
+      }
+    },
+    {
+      "path": "pages/task/index",
+      "style": {
+        "navigationBarTitleText": "任务"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#e0620d",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "static/home.png",
+      "selectedIconPath": "static/home-active.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/video/list",
+      "iconPath": "static/video.png",
+      "selectedIconPath": "static/video-active.png",
+      "text": "视频"
+    }, {
+      "pagePath": "pages/task/index",
+      "iconPath": "static/task.png",
+      "selectedIconPath": "static/task-active.png",
+      "text": "任务"
+    }, {
+      "pagePath": "pages/ucenter/ucenter",
+      "iconPath": "static/center.png",
+      "selectedIconPath": "static/center-active.png",
+      "text": "我的"
+    }]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "趣闻多",
+    "navigationBarBackgroundColor": "#ec706b",
+    "backgroundColor": "#f8f8f8"
+  }
 }
