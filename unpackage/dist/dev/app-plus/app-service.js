@@ -1066,30 +1066,6 @@ function gz$gwx_2(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
 __WXML_GLOBAL__.ops_cached.$gwx_2=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-})(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
-}
-function gz$gwx_3(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
-__WXML_GLOBAL__.ops_cached.$gwx_3=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-})(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
-}
-function gz$gwx_4(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
-__WXML_GLOBAL__.ops_cached.$gwx_4=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'__e'])
-Z(z[0])
-Z(z[0])
-Z([3,'mix-refresh-content'])
-Z([[4],[[5],[[5],[[5],[[4],[[5],[[5],[1,'touchstart']],[[4],[[5],[[4],[[5],[[5],[1,'pageTouchstart']],[[4],[[5],[1,'$event']]]]]]]]]],[[4],[[5],[[5],[1,'touchmove']],[[4],[[5],[[4],[[5],[[5],[1,'pageTouchmove']],[[4],[[5],[1,'$event']]]]]]]]]],[[4],[[5],[[5],[1,'touchend']],[[4],[[5],[[4],[[5],[[5],[1,'pageTouchend']],[[4],[[5],[1,'$event']]]]]]]]]]])
-Z([[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[[2,'+'],[1,'transform:'],[[2,'+'],[[2,'+'],[1,'translateY('],[[7],[3,'pageDeviation']]],[1,'px)']]],[1,';']],[[2,'+'],[[2,'+'],[1,'transition:'],[[2,'+'],[[7],[3,'pageTransition']],[1,'s']]],[1,';']]],[[2,'+'],[[2,'+'],[1,'height:'],[[2,'+'],[[2,'+'],[1,'calc(100vh - '],[[7],[3,'pageTop']]],[1,'px)']]],[1,';']]],[[2,'+'],[[2,'+'],[1,'max-height:'],[[2,'+'],[[2,'+'],[1,'calc(100vh - '],[[7],[3,'pageTop']]],[1,'px)']]],[1,';']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
-}
-function gz$gwx_5(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
-__WXML_GLOBAL__.ops_cached.$gwx_5=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'scroll-content'])
 Z([3,'__i0__'])
 Z([3,'item'])
@@ -1100,109 +1076,57 @@ Z([[7],[3,'loading']])
 Z([3,'__l'])
 Z([3,'mix-loading'])
 Z([3,'1'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
+}
+function gz$gwx_3(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
+__WXML_GLOBAL__.ops_cached.$gwx_3=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[7],[3,'loading']])
+Z([3,'__l'])
+Z([3,'mix-loading'])
+Z([3,'1'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
+}
+function gz$gwx_4(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
+__WXML_GLOBAL__.ops_cached.$gwx_4=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'__e'])
+Z([3,'logo'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'goLogin']],[[4],[[5],[1,'$event']]]]]]]]]]])
+Z([[2,'?:'],[[2,'!'],[[7],[3,'login']]],[1,'logo-hover'],[1,'']])
+Z([[2,'!'],[[7],[3,'login']]])
+})(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
+}
+function gz$gwx_5(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
+__WXML_GLOBAL__.ops_cached.$gwx_5=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 })(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
 }
 function gz$gwx_6(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
 __WXML_GLOBAL__.ops_cached.$gwx_6=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[7],[3,'loading']])
-Z([3,'__l'])
-Z([3,'mix-loading'])
-Z([3,'1'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
 }
 function gz$gwx_7(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
 __WXML_GLOBAL__.ops_cached.$gwx_7=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'content'])
-Z([3,'__l'])
-Z([3,'vue-ref'])
-Z([3,'mixAdvert'])
-Z([3,'/static/advert.jpg'])
-Z([1,8])
-Z([[7],[3,'advertNavUrl']])
-Z([3,'1'])
-Z(z[1])
 Z([3,'__e'])
-Z(z[9])
-Z([3,'panel-content vue-ref'])
-Z([[4],[[5],[[5],[[4],[[5],[[5],[1,'^refresh']],[[4],[[5],[[4],[[5],[1,'onPulldownReresh']]]]]]]],[[4],[[5],[[5],[1,'^setEnableScroll']],[[4],[[5],[[4],[[5],[1,'setEnableScroll']]]]]]]]])
-Z([3,'mixPulldownRefresh'])
-Z([1,90])
-Z([3,'2'])
-Z([[4],[[5],[1,'default']]])
-Z(z[9])
-Z([3,'swiper-box'])
-Z([[7],[3,'tabCurrentIndex']])
-Z([[4],[[5],[[4],[[5],[[5],[1,'change']],[[4],[[5],[[4],[[5],[[5],[1,'changeTab']],[[4],[[5],[1,'$event']]]]]]]]]]])
-Z([1,300])
-Z([3,'swiper'])
-Z([3,'__i0__'])
-Z([3,'tabItem'])
-Z([[7],[3,'tabBars']])
-Z([3,'id'])
-Z(z[9])
-Z([3,'panel-scroll-box'])
-Z([[4],[[5],[[4],[[5],[[5],[1,'scrolltolower']],[[4],[[5],[[4],[[5],[[5],[1,'loadMore']],[[4],[[5],[1,'$event']]]]]]]]]]])
-Z([[7],[3,'enableScroll']])
-Z([3,'index'])
-Z([3,'item'])
-Z([[6],[[7],[3,'tabItem']],[3,'newsList']])
-Z(z[31])
-Z(z[9])
-Z([3,'news-item'])
-Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[[5],[1,'navToDetails']],[[4],[[5],[1,'$0']]]],[[4],[[5],[[4],[[5],[[5],[[4],[[5],[[5],[[5],[1,'tabBars']],[1,'id']],[[6],[[7],[3,'tabItem']],[3,'id']]]]],[[4],[[5],[[5],[[5],[1,'newsList']],[1,'']],[[7],[3,'index']]]]]]]]]]]]]]]])
-Z([[2,'>'],[[6],[[6],[[7],[3,'item']],[3,'images']],[3,'length']],[1,0]])
-Z([3,'imgIndex'])
-Z([3,'imgItem'])
-Z([[6],[[7],[3,'item']],[3,'images']])
-Z(z[39])
-Z([[6],[[7],[3,'item']],[3,'videoSrc']])
-Z(z[1])
-Z([[6],[[7],[3,'tabItem']],[3,'loadMoreStatus']])
-Z([[2,'+'],[[2,'+'],[[2,'+'],[1,'3-'],[[7],[3,'__i0__']]],[1,',']],[1,'2']])
+Z([3,'logo'])
+Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'goLogin']],[[4],[[5],[1,'$event']]]]]]]]]]])
+Z([[2,'?:'],[[2,'!'],[[7],[3,'login']]],[1,'logo-hover'],[1,'']])
+Z([[2,'!'],[[7],[3,'login']]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
-}
-function gz$gwx_8(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
-__WXML_GLOBAL__.ops_cached.$gwx_8=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'__e'])
-Z([3,'logo'])
-Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'goLogin']],[[4],[[5],[1,'$event']]]]]]]]]]])
-Z([[2,'?:'],[[2,'!'],[[7],[3,'login']]],[1,'logo-hover'],[1,'']])
-Z([[2,'!'],[[7],[3,'login']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
-}
-function gz$gwx_9(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
-__WXML_GLOBAL__.ops_cached.$gwx_9=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'__e'])
-Z([3,'logo'])
-Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'goLogin']],[[4],[[5],[1,'$event']]]]]]]]]]])
-Z([[2,'?:'],[[2,'!'],[[7],[3,'login']]],[1,'logo-hover'],[1,'']])
-Z([[2,'!'],[[7],[3,'login']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
-}
-function gz$gwx_10(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
-__WXML_GLOBAL__.ops_cached.$gwx_10=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'__e'])
-Z([3,'logo'])
-Z([[4],[[5],[[4],[[5],[[5],[1,'tap']],[[4],[[5],[[4],[[5],[[5],[1,'goLogin']],[[4],[[5],[1,'$event']]]]]]]]]]])
-Z([[2,'?:'],[[2,'!'],[[7],[3,'login']]],[1,'logo-hover'],[1,'']])
-Z([[2,'!'],[[7],[3,'login']]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./components/mix-advert/vue/mix-advert.wxml','./components/mix-load-more/mix-load-more.wxml','./components/mix-loading/mix-loading.wxml','./components/mix-pulldown-refresh/mix-pulldown-refresh.wxml','./pages/details/details.wxml','./pages/details/videoDetails.wxml','./pages/index/index.wxml','./pages/task/index.wxml','./pages/ucenter/ucenter.wxml','./pages/video/list.wxml'];d_[x[0]]={}
+var x=['./components/mix-loading/mix-loading.wxml','./pages/details/details.wxml','./pages/details/videoDetails.wxml','./pages/task/index.wxml','./pages/ucenter/login.wxml','./pages/ucenter/ucenter.wxml','./pages/video/list.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 return r
@@ -1211,161 +1135,84 @@ e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
 d_[x[1]]={}
 var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
+var xC=_n('view')
+_rz(z,xC,'class',0,e,s,gg)
+var fE=_v()
+_(xC,fE)
+var cF=function(oH,hG,cI,gg){
+var lK=_v()
+_(cI,lK)
+if(_oz(z,5,oH,hG,gg)){lK.wxVkey=1
+}
+lK.wxXCkey=1
+return cI
+}
+fE.wxXCkey=2
+_2z(z,3,cF,e,s,gg,fE,'item','__i0__','id')
+var oD=_v()
+_(xC,oD)
+if(_oz(z,6,e,s,gg)){oD.wxVkey=1
+var aL=_mz(z,'mix-loading',['bind:__l',7,'class',1,'vueId',2],[],e,s,gg)
+_(oD,aL)
+}
+oD.wxXCkey=1
+oD.wxXCkey=3
+_(r,xC)
 return r
 }
 e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
 d_[x[2]]={}
 var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
+var eN=_v()
+_(r,eN)
+if(_oz(z,0,e,s,gg)){eN.wxVkey=1
+var bO=_mz(z,'mix-loading',['bind:__l',1,'class',1,'vueId',2],[],e,s,gg)
+_(eN,bO)
+}
+eN.wxXCkey=1
+eN.wxXCkey=3
 return r
 }
 e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
 d_[x[3]]={}
 var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
-var fE=_mz(z,'view',['bindtouchend',0,'bindtouchmove',1,'bindtouchstart',1,'class',2,'data-event-opts',3,'style',4],[],e,s,gg)
-var cF=_n('slot')
-_(fE,cF)
-_(r,fE)
+var xQ=_mz(z,'view',['bindtap',0,'class',1,'data-event-opts',1,'hoverClass',2],[],e,s,gg)
+var oR=_v()
+_(xQ,oR)
+if(_oz(z,4,e,s,gg)){oR.wxVkey=1
+}
+oR.wxXCkey=1
+_(r,xQ)
 return r
 }
 e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
 d_[x[4]]={}
 var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
-var oH=_n('view')
-_rz(z,oH,'class',0,e,s,gg)
-var oJ=_v()
-_(oH,oJ)
-var lK=function(tM,aL,eN,gg){
-var oP=_v()
-_(eN,oP)
-if(_oz(z,5,tM,aL,gg)){oP.wxVkey=1
-}
-oP.wxXCkey=1
-return eN
-}
-oJ.wxXCkey=2
-_2z(z,3,lK,e,s,gg,oJ,'item','__i0__','id')
-var cI=_v()
-_(oH,cI)
-if(_oz(z,6,e,s,gg)){cI.wxVkey=1
-var xQ=_mz(z,'mix-loading',['bind:__l',7,'class',1,'vueId',2],[],e,s,gg)
-_(cI,xQ)
-}
-cI.wxXCkey=1
-cI.wxXCkey=3
-_(r,oH)
 return r
 }
 e_[x[4]]={f:m4,j:[],i:[],ti:[],ic:[]}
 d_[x[5]]={}
 var m5=function(e,s,r,gg){
 var z=gz$gwx_6()
-var fS=_v()
-_(r,fS)
-if(_oz(z,0,e,s,gg)){fS.wxVkey=1
-var cT=_mz(z,'mix-loading',['bind:__l',1,'class',1,'vueId',2],[],e,s,gg)
-_(fS,cT)
-}
-fS.wxXCkey=1
-fS.wxXCkey=3
 return r
 }
 e_[x[5]]={f:m5,j:[],i:[],ti:[],ic:[]}
 d_[x[6]]={}
 var m6=function(e,s,r,gg){
 var z=gz$gwx_7()
-var oV=_n('view')
-_rz(z,oV,'class',0,e,s,gg)
-var cW=_mz(z,'mix-advert',['bind:__l',1,'class',1,'data-ref',2,'imageUrl',3,'timedown',4,'url',5,'vueId',6],[],e,s,gg)
+var oV=_mz(z,'view',['bindtap',0,'class',1,'data-event-opts',1,'hoverClass',2],[],e,s,gg)
+var cW=_v()
 _(oV,cW)
-var oX=_mz(z,'mix-pulldown-refresh',['bind:__l',8,'bind:refresh',1,'bind:setEnableScroll',2,'class',3,'data-event-opts',4,'data-ref',5,'top',6,'vueId',7,'vueSlots',8],[],e,s,gg)
-var lY=_mz(z,'swiper',['bindchange',17,'class',1,'current',2,'data-event-opts',3,'duration',4,'id',5],[],e,s,gg)
-var aZ=_v()
-_(lY,aZ)
-var t1=function(b3,e2,o4,gg){
-var o6=_mz(z,'scroll-view',['bindscrolltolower',27,'class',1,'data-event-opts',2,'scrollY',3],[],b3,e2,gg)
-var f7=_v()
-_(o6,f7)
-var c8=function(o0,h9,cAB,gg){
-var lCB=_mz(z,'view',['bindtap',35,'class',1,'data-event-opts',2],[],o0,h9,gg)
-var aDB=_v()
-_(lCB,aDB)
-if(_oz(z,38,o0,h9,gg)){aDB.wxVkey=1
-var tEB=_v()
-_(aDB,tEB)
-var eFB=function(oHB,bGB,xIB,gg){
-var fKB=_v()
-_(xIB,fKB)
-if(_oz(z,43,oHB,bGB,gg)){fKB.wxVkey=1
+if(_oz(z,4,e,s,gg)){cW.wxVkey=1
 }
-fKB.wxXCkey=1
-return xIB
-}
-tEB.wxXCkey=2
-_2z(z,41,eFB,o0,h9,gg,tEB,'imgItem','imgIndex','imgIndex')
-}
-else{aDB.wxVkey=2
-}
-aDB.wxXCkey=1
-_(cAB,lCB)
-return cAB
-}
-f7.wxXCkey=2
-_2z(z,33,c8,b3,e2,gg,f7,'item','index','index')
-var cLB=_mz(z,'mix-load-more',['bind:__l',44,'status',1,'vueId',2],[],b3,e2,gg)
-_(o6,cLB)
-_(o4,o6)
-return o4
-}
-aZ.wxXCkey=4
-_2z(z,25,t1,e,s,gg,aZ,'tabItem','__i0__','id')
-_(oX,lY)
-_(oV,oX)
+cW.wxXCkey=1
 _(r,oV)
 return r
 }
 e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
-d_[x[7]]={}
-var m7=function(e,s,r,gg){
-var z=gz$gwx_8()
-var oNB=_mz(z,'view',['bindtap',0,'class',1,'data-event-opts',1,'hoverClass',2],[],e,s,gg)
-var cOB=_v()
-_(oNB,cOB)
-if(_oz(z,4,e,s,gg)){cOB.wxVkey=1
-}
-cOB.wxXCkey=1
-_(r,oNB)
-return r
-}
-e_[x[7]]={f:m7,j:[],i:[],ti:[],ic:[]}
-d_[x[8]]={}
-var m8=function(e,s,r,gg){
-var z=gz$gwx_9()
-var lQB=_mz(z,'view',['bindtap',0,'class',1,'data-event-opts',1,'hoverClass',2],[],e,s,gg)
-var aRB=_v()
-_(lQB,aRB)
-if(_oz(z,4,e,s,gg)){aRB.wxVkey=1
-}
-aRB.wxXCkey=1
-_(r,lQB)
-return r
-}
-e_[x[8]]={f:m8,j:[],i:[],ti:[],ic:[]}
-d_[x[9]]={}
-var m9=function(e,s,r,gg){
-var z=gz$gwx_10()
-var eTB=_mz(z,'view',['bindtap',0,'class',1,'data-event-opts',1,'hoverClass',2],[],e,s,gg)
-var bUB=_v()
-_(eTB,bUB)
-if(_oz(z,4,e,s,gg)){bUB.wxVkey=1
-}
-bUB.wxXCkey=1
-_(r,eTB)
-return r
-}
-e_[x[9]]={f:m9,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -1383,20 +1230,11 @@ return root;
 
 
 
-__wxAppCode__['app.json']={"pages":["pages/index/index","pages/details/details","pages/details/videoDetails","pages/ucenter/ucenter","pages/video/list","pages/task/index"],"subPackages":[],"window":{"navigationBarTextStyle":"white","navigationBarTitleText":"趣闻多","navigationBarBackgroundColor":"#2F85FC","backgroundColor":"#FFFFFF"},"tabBar":{"color":"#000000","selectedColor":"#e0620d","backgroundColor":"#FFFFFF","borderStyle":"black","list":[{"pagePath":"pages/index/index","iconPath":"static/home.png","selectedIconPath":"static/home-active.png","text":"首页"},{"pagePath":"pages/video/list","iconPath":"static/video.png","selectedIconPath":"static/video-active.png","text":"视频"},{"pagePath":"pages/task/index","iconPath":"static/task.png","selectedIconPath":"static/task-active.png","text":"任务"},{"pagePath":"pages/ucenter/ucenter","iconPath":"static/center.png","selectedIconPath":"static/center-active.png","text":"我的"}]},"nvueCompiler":"uni-app","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"新闻资讯","compilerVersion":"2.0.1","usingComponents":{}};
+__wxAppCode__['app.json']={"pages":["pages/details/details","pages/details/videoDetails","pages/ucenter/ucenter","pages/video/list","pages/task/index","pages/ucenter/login"],"subPackages":[],"window":{"navigationBarTextStyle":"white","navigationBarTitleText":"趣闻多","navigationBarBackgroundColor":"#ec706b","backgroundColor":"#f8f8f8"},"tabBar":{"color":"#000000","selectedColor":"#e0620d","backgroundColor":"#FFFFFF","borderStyle":"black","list":[{"pagePath":"pages/index/index","iconPath":"static/home.png","selectedIconPath":"static/home-active.png","text":"首页"},{"pagePath":"pages/video/list","iconPath":"static/video.png","selectedIconPath":"static/video-active.png","text":"视频"},{"pagePath":"pages/task/index","iconPath":"static/task.png","selectedIconPath":"static/task-active.png","text":"任务"},{"pagePath":"pages/ucenter/ucenter","iconPath":"static/center.png","selectedIconPath":"static/center-active.png","text":"我的"}]},"nvue":{"pages":{"pages/index/index.html":{"window":{"usingComponents":{},"navigationBarBackgroundColor":"#FFFFFF","navigationBarTextStyle":"black","titleNView":{"buttons":[{"text":"","fontSrc":"/static/font/iconfont.ttf","fontSize":"22px","float":"left"}]}}}},"entryPagePath":"pages/index/index"},"nvueCompiler":"uni-app","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"新闻资讯","compilerVersion":"2.0.1","usingComponents":{}};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
-
-__wxAppCode__['components/mix-advert/vue/mix-advert.json']={"usingComponents":{},"component":true};
-__wxAppCode__['components/mix-advert/vue/mix-advert.wxml']=$gwx('./components/mix-advert/vue/mix-advert.wxml');
-
-__wxAppCode__['components/mix-load-more/mix-load-more.json']={"usingComponents":{},"component":true};
-__wxAppCode__['components/mix-load-more/mix-load-more.wxml']=$gwx('./components/mix-load-more/mix-load-more.wxml');
 
 __wxAppCode__['components/mix-loading/mix-loading.json']={"usingComponents":{},"component":true};
 __wxAppCode__['components/mix-loading/mix-loading.wxml']=$gwx('./components/mix-loading/mix-loading.wxml');
-
-__wxAppCode__['components/mix-pulldown-refresh/mix-pulldown-refresh.json']={"usingComponents":{},"component":true};
-__wxAppCode__['components/mix-pulldown-refresh/mix-pulldown-refresh.wxml']=$gwx('./components/mix-pulldown-refresh/mix-pulldown-refresh.wxml');
 
 __wxAppCode__['pages/details/details.json']={"usingComponents":{"mix-loading":"/components/mix-loading/mix-loading"}};
 __wxAppCode__['pages/details/details.wxml']=$gwx('./pages/details/details.wxml');
@@ -1404,16 +1242,16 @@ __wxAppCode__['pages/details/details.wxml']=$gwx('./pages/details/details.wxml')
 __wxAppCode__['pages/details/videoDetails.json']={"usingComponents":{"mix-loading":"/components/mix-loading/mix-loading"}};
 __wxAppCode__['pages/details/videoDetails.wxml']=$gwx('./pages/details/videoDetails.wxml');
 
-__wxAppCode__['pages/index/index.json']={"usingComponents":{"mix-pulldown-refresh":"/components/mix-pulldown-refresh/mix-pulldown-refresh","mix-load-more":"/components/mix-load-more/mix-load-more","mix-advert":"/components/mix-advert/vue/mix-advert"}};
-__wxAppCode__['pages/index/index.wxml']=$gwx('./pages/index/index.wxml');
-
-__wxAppCode__['pages/task/index.json']={"navigationBarTitleText":"任务","usingComponents":{}};
+__wxAppCode__['pages/task/index.json']={"navigationBarBackgroundColor":"#FFFFFF","usingComponents":{}};
 __wxAppCode__['pages/task/index.wxml']=$gwx('./pages/task/index.wxml');
 
-__wxAppCode__['pages/ucenter/ucenter.json']={"navigationBarTitleText":"个人中心","usingComponents":{}};
+__wxAppCode__['pages/ucenter/login.json']={"navigationBarTitleText":"登录","navigationBarBackgroundColor":"#FFFFFF","navigationBarTextStyle":"black","usingComponents":{}};
+__wxAppCode__['pages/ucenter/login.wxml']=$gwx('./pages/ucenter/login.wxml');
+
+__wxAppCode__['pages/ucenter/ucenter.json']={"titleNView":false,"usingComponents":{}};
 __wxAppCode__['pages/ucenter/ucenter.wxml']=$gwx('./pages/ucenter/ucenter.wxml');
 
-__wxAppCode__['pages/video/list.json']={"navigationBarTitleText":"视频","usingComponents":{}};
+__wxAppCode__['pages/video/list.json']={"usingComponents":{}};
 __wxAppCode__['pages/video/list.wxml']=$gwx('./pages/video/list.wxml');
 
 
@@ -2096,6 +1934,23 @@ createPage(_index.default);
 
 /***/ }),
 
+/***/ "../../../../work/todayNews/main.js?{\"page\":\"pages%2Fucenter%2Flogin\"}":
+/*!********************************************************************!*\
+  !*** D:/work/todayNews/main.js?{"page":"pages%2Fucenter%2Flogin"} ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../work/todayNews/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _login = _interopRequireDefault(__webpack_require__(/*! ./pages/ucenter/login.vue */ "../../../../work/todayNews/pages/ucenter/login.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_login.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "../../../../work/todayNews/main.js?{\"page\":\"pages%2Fucenter%2Fucenter\"}":
 /*!**********************************************************************!*\
   !*** D:/work/todayNews/main.js?{"page":"pages%2Fucenter%2Fucenter"} ***!
@@ -2647,7 +2502,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_PLATFORM":"app-plus","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -8845,7 +8700,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"VUE_APP_PLATFORM":"app-plus","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -8866,14 +8721,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_PLATFORM":"app-plus","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_PLATFORM":"app-plus","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -8942,7 +8797,7 @@ var patch = function(oldVnode, vnode) {
         });
         var diffData = diff(data, mpData);
         if (Object.keys(diffData).length) {
-            if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"app-plus","BASE_URL":"/"}).VUE_APP_DEBUG) {
+            if (Object({"VUE_APP_PLATFORM":"app-plus","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
                 console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
                     ']差量更新',
                     JSON.stringify(diffData));
@@ -11013,444 +10868,8 @@ module.exports = g;
 
 }]);
 });
-define('pages/index/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-"use strict";(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/index/index"], {
-
-  /***/"../../../../work/todayNews/pages/index/index.vue":
-  /*!***********************************************!*\
-                                                             !*** D:/work/todayNews/pages/index/index.vue ***!
-                                                             \***********************************************/
-  /*! no static exports found */
-  /***/function workTodayNewsPagesIndexIndexVue(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _index_vue_vue_type_template_id_789e1602___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! ./index.vue?vue&type=template&id=789e1602& */"../../../../work/todayNews/pages/index/index.vue?vue&type=template&id=789e1602&");
-    /* harmony import */var _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__( /*! ./index.vue?vue&type=script&lang=js& */"../../../../work/todayNews/pages/index/index.vue?vue&type=script&lang=js&");
-    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key];});})(__WEBPACK_IMPORT_KEY__);}
-    /* harmony import */var _index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__( /*! ./index.vue?vue&type=style&index=0&lang=scss& */"../../../../work/todayNews/pages/index/index.vue?vue&type=style&index=0&lang=scss&");
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__( /*! ../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/runtime/componentNormalizer.js */"./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-
-    /* normalize component */
-
-    var component = Object(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-    _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-    _index_vue_vue_type_template_id_789e1602___WEBPACK_IMPORTED_MODULE_0__["render"],
-    _index_vue_vue_type_template_id_789e1602___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-    false,
-    null,
-    null,
-    null);
-
-
-
-    /* hot reload */
-    if (false) {var api;}
-    component.options.__file = "work/todayNews/pages/index/index.vue";
-    /* harmony default export */__webpack_exports__["default"] = component.exports;
-
-    /***/},
-
-  /***/"../../../../work/todayNews/pages/index/index.vue?vue&type=script&lang=js&":
-  /*!************************************************************************!*\
-                                                                                      !*** D:/work/todayNews/pages/index/index.vue?vue&type=script&lang=js& ***!
-                                                                                      \************************************************************************/
-  /*! no static exports found */
-  /***/function workTodayNewsPagesIndexIndexVueVueTypeScriptLangJs(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./index.vue?vue&type=script&lang=js& */"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/pages/index/index.vue?vue&type=script&lang=js&");
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
-    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key];});})(__WEBPACK_IMPORT_KEY__);}
-    /* harmony default export */__webpack_exports__["default"] = _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a;
-
-    /***/},
-
-  /***/"../../../../work/todayNews/pages/index/index.vue?vue&type=style&index=0&lang=scss&":
-  /*!*********************************************************************************!*\
-                                                                                               !*** D:/work/todayNews/pages/index/index.vue?vue&type=style&index=0&lang=scss& ***!
-                                                                                               \*********************************************************************************/
-  /*! no static exports found */
-  /***/function workTodayNewsPagesIndexIndexVueVueTypeStyleIndex0LangScss(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_8_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_8_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_8_oneOf_1_5_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-1!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/css-loader??ref--8-oneOf-1-2!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/postcss-loader/src??ref--8-oneOf-1-3!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/sass-loader/lib/loader.js??ref--8-oneOf-1-4!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./index.vue?vue&type=style&index=0&lang=scss& */"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/pages/index/index.vue?vue&type=style&index=0&lang=scss&");
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_8_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_8_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_8_oneOf_1_5_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_8_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_8_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_8_oneOf_1_5_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
-    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_8_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_8_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_8_oneOf_1_5_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_8_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_8_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_8_oneOf_1_5_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key];});})(__WEBPACK_IMPORT_KEY__);}
-    /* harmony default export */__webpack_exports__["default"] = _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_8_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_8_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_4_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_8_oneOf_1_5_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a;
-
-    /***/},
-
-  /***/"../../../../work/todayNews/pages/index/index.vue?vue&type=template&id=789e1602&":
-  /*!******************************************************************************!*\
-                                                                                            !*** D:/work/todayNews/pages/index/index.vue?vue&type=template&id=789e1602& ***!
-                                                                                            \******************************************************************************/
-  /*! exports provided: render, staticRenderFns */
-  /***/function workTodayNewsPagesIndexIndexVueVueTypeTemplateId789e1602(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_789e1602___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./index.vue?vue&type=template&id=789e1602& */"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/pages/index/index.vue?vue&type=template&id=789e1602&");
-    /* harmony reexport (safe) */__webpack_require__.d(__webpack_exports__, "render", function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_789e1602___WEBPACK_IMPORTED_MODULE_0__["render"];});
-
-    /* harmony reexport (safe) */__webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_789e1602___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"];});
-
-
-
-    /***/},
-
-  /***/"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/pages/index/index.vue?vue&type=script&lang=js&":
-  /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-                                                                                                                                                                                                                                                                                                                             !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/pages/index/index.vue?vue&type=script&lang=js& ***!
-                                                                                                                                                                                                                                                                                                                             \*****************************************************************************************************************************************************************************************************************************************************************************************************************/
-  /*! no static exports found */
-  /***/function node_modulesBabelLoaderLibIndexJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibScriptJsNode_modulesVueLoaderLibIndexJsWorkTodayNewsPagesIndexIndexVueVueTypeScriptLangJs(module, exports, __webpack_require__) {
-
-    "use strict";
-    /* WEBPACK VAR INJECTION */(function (uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__( /*! ./node_modules/@babel/runtime/regenerator */"./node_modules/@babel/runtime/regenerator/index.js"));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      var _json = _interopRequireDefault(__webpack_require__( /*! @/json */"../../../../work/todayNews/json.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var mixAdvert = function mixAdvert() {return Promise.all( /*! import() | components/mix-advert/vue/mix-advert */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/mix-advert/vue/mix-advert")]).then(__webpack_require__.bind(null, /*! @/components/mix-advert/vue/mix-advert */"../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue"));};var mixPulldownRefresh = function mixPulldownRefresh() {return __webpack_require__.e( /*! import() | components/mix-pulldown-refresh/mix-pulldown-refresh */"components/mix-pulldown-refresh/mix-pulldown-refresh").then(__webpack_require__.bind(null, /*! @/components/mix-pulldown-refresh/mix-pulldown-refresh */"../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue"));};var mixLoadMore = function mixLoadMore() {return __webpack_require__.e( /*! import() | components/mix-load-more/mix-load-more */"components/mix-load-more/mix-load-more").then(__webpack_require__.bind(null, /*! @/components/mix-load-more/mix-load-more */"../../../../work/todayNews/components/mix-load-more/mix-load-more.vue"));};
-
-
-      var windowWidth = 0,scrollTimer = false,tabBar;var _default =
-      {
-        components: {
-          mixPulldownRefresh: mixPulldownRefresh,
-          mixLoadMore: mixLoadMore,
-          mixAdvert: mixAdvert },
-
-        data: function data() {
-          return {
-            tabCurrentIndex: 0, //当前选项卡索引
-            scrollLeft: 0, //顶部选项卡左滑距离
-            enableScroll: true,
-            tabBars: [] };
-
-        },
-        computed: {
-          advertNavUrl: function advertNavUrl() {
-            var data = {
-              title: '测试跳转新闻详情',
-              author: '测试作者',
-              time: '2019-04-26 21:21' };
-
-            return "/pages/details/details?data=".concat(JSON.stringify(data));
-          } },
-
-        onLoad: function () {var _onLoad = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:
-                    // 获取屏幕宽度
-                    windowWidth = uni.getSystemInfoSync().windowWidth;
-                    this.loadTabbars();case 2:case "end":return _context.stop();}}}, _callee, this);}));function onLoad() {return _onLoad.apply(this, arguments);}return onLoad;}(),
-
-        onReady: function onReady() {
-          /**
-                                                                 * 启动页广告 使用文档（滑稽）
-                                                                 * 1. 引入组件并注册 
-                                                                 * 		import mixAdvert from '@/components/mix-advert/vue/mix-advert';
-                                                                 *      components: {mixAdvert},
-                                                                		 <!-- #ifndef MP -->
-                                                                			<mix-advert 
-                                                                				ref="mixAdvert" 
-                                                                				:timedown="8" 
-                                                                				imageUrl="/static/advert.jpg"
-                                                                				:url="advertNavUrl"
-                                                                			></mix-advert>
-                                                                		<!-- #endif -->
-                                                                 * 	2. 调用组件的initAdvert()方法进行初始化
-                                                                 * 
-                                                                 *  初始化的时机应该是在splash关闭时，否则会造成在app端广告显示了数秒后首屏才渲染出来
-                                                                 */
-
-          this.$refs.mixAdvert.initAdvert();
-
-        },
-        methods: {
-          /**
-                             * 数据处理方法在vue和nvue中通用，可以直接用mixin混合
-                             * 这里直接写的
-                             * mixin使用方法看index.nuve
-                             */
-          //获取分类
-          loadTabbars: function loadTabbars() {
-            var tabList = _json.default.tabList;
-            tabList.forEach(function (item) {
-              item.newsList = [];
-              item.loadMoreStatus = 0; //加载更多 0加载前，1加载中，2没有更多了
-              item.refreshing = 0;
-            });
-            this.tabBars = tabList;
-            this.loadNewsList('add');
-          },
-          //新闻列表
-          loadNewsList: function loadNewsList(type) {var _this = this;
-            var tabItem = this.tabBars[this.tabCurrentIndex];
-
-            //type add 加载更多 refresh下拉刷新
-            if (type === 'add') {
-              if (tabItem.loadMoreStatus === 2) {
-                return;
-              }
-              tabItem.loadMoreStatus = 1;
-            } else
-
-            if (type === 'refresh') {
-              tabItem.refreshing = true;
-            }
-
-
-            //setTimeout模拟异步请求数据
-            setTimeout(function () {
-              var list = _json.default.newsList;
-              list.sort(function (a, b) {
-                return Math.random() > .5 ? -1 : 1; //静态数据打乱顺序
-              });
-              if (type === 'refresh') {
-                tabItem.newsList = []; //刷新前清空数组
-              }
-              list.forEach(function (item) {
-                item.id = parseInt(Math.random() * 10000);
-                tabItem.newsList.push(item);
-              });
-              //下拉刷新 关闭刷新动画
-              if (type === 'refresh') {
-                _this.$refs.mixPulldownRefresh && _this.$refs.mixPulldownRefresh.endPulldownRefresh();
-
-                tabItem.refreshing = false;
-
-                tabItem.loadMoreStatus = 0;
-              }
-              //上滑加载 处理状态
-              if (type === 'add') {
-                tabItem.loadMoreStatus = tabItem.newsList.length > 40 ? 2 : 0;
-              }
-            }, 600);
-          },
-          //新闻详情
-          navToDetails: function navToDetails(item) {
-            var data = {
-              id: item.id,
-              title: item.title,
-              author: item.author,
-              time: item.time };
-
-            var url = item.videoSrc ? 'videoDetails' : 'details';
-
-            uni.navigateTo({
-              url: "/pages/details/".concat(url, "?data=").concat(JSON.stringify(data)) });
-
-          },
-
-          //下拉刷新
-          onPulldownReresh: function onPulldownReresh() {
-            this.loadNewsList('refresh');
-          },
-          //上滑加载
-          loadMore: function loadMore() {
-            this.loadNewsList('add');
-          },
-          //设置scroll-view是否允许滚动，在小程序里下拉刷新时避免列表可以滑动
-          setEnableScroll: function setEnableScroll(enable) {
-            if (this.enableScroll !== enable) {
-              this.enableScroll = enable;
-            }
-          },
-
-          //tab切换
-          changeTab: function () {var _changeTab = _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee2(e) {var _this2 = this;var index, tabBarScrollLeft, width, nowWidth, i, result;return _regenerator.default.wrap(function _callee2$(_context2) {while (1) {switch (_context2.prev = _context2.next) {case 0:
-
-                      if (scrollTimer) {
-                        //多次切换只执行最后一次
-                        clearTimeout(scrollTimer);
-                        scrollTimer = false;
-                      }
-                      index = e;
-                      //e=number为点击切换，e=object为swiper滑动切换
-                      if (typeof e === 'object') {
-                        index = e.detail.current;
-                      }if (!(
-                      typeof tabBar !== 'object')) {_context2.next = 7;break;}_context2.next = 6;return (
-                        this.getElSize("nav-bar"));case 6:tabBar = _context2.sent;case 7:
-
-                      //计算宽度相关
-                      tabBarScrollLeft = tabBar.scrollLeft;
-                      width = 0;
-                      nowWidth = 0;
-                      //获取可滑动总宽度
-                      i = 0;case 11:if (!(i <= index)) {_context2.next = 20;break;}_context2.next = 14;return (
-                        this.getElSize('tab' + i));case 14:result = _context2.sent;
-                      width += result.width;
-                      if (i === index) {
-                        nowWidth = result.width;
-                      }case 17:i++;_context2.next = 11;break;case 20:
-
-                      if (typeof e === 'number') {
-                        //点击切换时先切换再滚动tabbar，避免同时切换视觉错位
-                        this.tabCurrentIndex = index;
-                      }
-                      //延迟300ms,等待swiper动画结束再修改tabbar
-                      scrollTimer = setTimeout(function () {
-                        if (width - nowWidth / 2 > windowWidth / 2) {
-                          //如果当前项越过中心点，将其放在屏幕中心
-                          _this2.scrollLeft = width - nowWidth / 2 - windowWidth / 2;
-                        } else {
-                          _this2.scrollLeft = 0;
-                        }
-                        if (typeof e === 'object') {
-                          _this2.tabCurrentIndex = index;
-                        }
-                        _this2.tabCurrentIndex = index;
-
-
-                        //第一次切换tab，动画结束后需要加载数据
-                        var tabItem = _this2.tabBars[_this2.tabCurrentIndex];
-                        if (_this2.tabCurrentIndex !== 0 && tabItem.loaded !== true) {
-                          _this2.loadNewsList('add');
-                          tabItem.loaded = true;
-                        }
-                      }, 300);case 22:case "end":return _context2.stop();}}}, _callee2, this);}));function changeTab(_x) {return _changeTab.apply(this, arguments);}return changeTab;}(),
-
-
-          //获得元素的size
-          getElSize: function getElSize(id) {
-            return new Promise(function (res, rej) {
-              var el = uni.createSelectorQuery().select('#' + id);
-              el.fields({
-                size: true,
-                scrollOffset: true,
-                rect: true },
-              function (data) {
-                res(data);
-              }).exec();
-            });
-          } } };exports.default = _default;
-      /* WEBPACK VAR INJECTION */}).call(this, __webpack_require__( /*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */"./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]);
-
-    /***/},
-
-  /***/"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/lib/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/pages/index/index.vue?vue&type=style&index=0&lang=scss&":
-  /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-1!./node_modules/css-loader??ref--8-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/sass-loader/lib/loader.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/pages/index/index.vue?vue&type=style&index=0&lang=scss& ***!
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-  /*! no static exports found */
-  /***/function node_modulesMiniCssExtractPluginDistLoaderJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesCssLoaderIndexJsNode_modulesVueLoaderLibLoadersStylePostLoaderJsNode_modulesPostcssLoaderSrcIndexJsNode_modulesSassLoaderLibLoaderJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesVueLoaderLibIndexJsWorkTodayNewsPagesIndexIndexVueVueTypeStyleIndex0LangScss(module, exports, __webpack_require__) {
-
-    // extracted by mini-css-extract-plugin
-
-    /***/},
-
-  /***/"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/pages/index/index.vue?vue&type=template&id=789e1602&":
-  /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-                                                                                                                                                                                                                                                                                                                                                     !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/pages/index/index.vue?vue&type=template&id=789e1602& ***!
-                                                                                                                                                                                                                                                                                                                                                     \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-  /*! exports provided: render, staticRenderFns */
-  /***/function node_modulesVueLoaderLibLoadersTemplateLoaderJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibTemplateJsNode_modulesVueLoaderLibIndexJsWorkTodayNewsPagesIndexIndexVueVueTypeTemplateId789e1602(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */__webpack_require__.d(__webpack_exports__, "render", function () {return render;});
-    /* harmony export (binding) */__webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {return staticRenderFns;});
-    var render = function render() {
-      var _vm = this;
-      var _h = _vm.$createElement;
-      var _c = _vm._self._c || _h;
-    };
-    var staticRenderFns = [];
-    render._withStripped = true;
-
-
-
-    /***/} },
-
-[["../../../../work/todayNews/main.js?{\"page\":\"pages%2Findex%2Findex\"}", "common/runtime", "common/vendor"]]]);
-});
 define('static/font/iconfont.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-"use strict";!function (s) {var e,n = '<svg><symbol id="icon-xiaoxi" viewBox="0 0 1024 1024"><path d="M798.408 569.848v-88.407c0-124.764-89.85-229.568-211.378-259.101v-1.493c0-41.949-31.487-75.954-70.328-75.954-38.838 0-70.328 34.004-70.328 75.954v1.733c-121.026 29.856-210.392 134.428-210.392 258.856v72.751h-0.059c1.453 89.798-70.493 107.41-70.493 155.882s39.292 67.386 87.767 67.386h122.755c1.714 58.393 64.233 105.335 141.109 105.335s139.395-46.938 141.109-105.335h122.438c48.475 0 87.771-18.91 87.771-67.386 0.005-45.503-63.661-64.015-69.969-140.22zM517.151 847.314c-58.389 0-105.722-30.723-105.722-68.625 0-0.413 0.010-0.825 0.026-1.239h211.395c0.010 0.413 0.026 0.822 0.026 1.239-0.005 37.901-47.336 68.625-105.727 68.625zM833.375 712.797c-2.197 22.761-32.25 30.008-51.159 30.008h-530.469c-14.482 1.97-51.705-5.107-51.156-29.513v-6.198c0.483-22.037 54.625-40.822 70.179-118.866v-34.038h-0.557v-66.675c0-119.753 91.718-218.82 211.063-235.378v-29.628c0-23.405 15.775-42.378 35.235-42.378s35.235 18.973 35.235 42.378v29.588c119.477 16.445 211.34 115.569 211.34 235.419v66.674h-0.205v30.694h0.273c0.712 56.066 69.668 102.662 70.217 119.522l0.005 8.391z" fill="#333333" ></path></symbol></svg>',t = (e = document.getElementsByTagName("script"))[e.length - 1].getAttribute("data-injectcss");if (t && !s.__iconfont__svg__cssinject__) {s.__iconfont__svg__cssinject__ = !0;try {document.write("<style>.svgfont {display: inline-block;width: 1em;height: 1em;fill: currentColor;vertical-align: -0.1em;font-size:16px;}</style>");} catch (e) {console && console.log(e);}}!function (e) {if (document.addEventListener) {if (~["complete", "loaded", "interactive"].indexOf(document.readyState)) setTimeout(e, 0);else {var t = function t() {document.removeEventListener("DOMContentLoaded", t, !1), e();};document.addEventListener("DOMContentLoaded", t, !1);}} else document.attachEvent && (o = e, c = s.document, i = !1, (_d = function d() {try {c.documentElement.doScroll("left");} catch (e) {return void setTimeout(_d, 50);}n();})(), c.onreadystatechange = function () {"complete" == c.readyState && (c.onreadystatechange = null, n());});function n() {i || (i = !0, o());}var o, c, i, _d;}(function () {var e, t;(e = document.createElement("div")).innerHTML = n, n = null, (t = e.getElementsByTagName("svg")[0]) && (t.setAttribute("aria-hidden", "true"), t.style.position = "absolute", t.style.width = 0, t.style.height = 0, t.style.overflow = "hidden", function (e, t) {t.firstChild ? function (e, t) {t.parentNode.insertBefore(e, t);}(e, t.firstChild) : t.appendChild(e);}(t, document.body));});}(window);
+"use strict";!function (d) {var e,n = '<svg><symbol id="icon-right" viewBox="0 0 1024 1024"><path d="M317.235666 831.366701l338.493318-334.032726L317.235666 163.30125l2.688225-2.664689c-1.736551-2.856048-2.962471-5.996574-2.962471-9.565866 0-10.636245 8.709359-19.2269 19.487843-19.2269 3.628644 0 6.804986 1.213641 9.68457 2.90312l2.700505-2.664689 357.708961 353.020172-2.689249 2.664689c1.736551 2.856048 2.963495 5.996574 2.963495 9.565866 0 3.545756-1.225921 6.709819-2.938935 9.565866l2.689249 2.641153L348.835362 862.561168l-2.700505-2.641153c-2.879584 1.689479-6.055926 2.90312-9.68457 2.90312-10.778484 0-19.487843-8.614192-19.487843-19.25146 0-3.568269 1.225921-6.709819 2.938935-9.541307L317.235666 831.366701 317.235666 831.366701zM317.235666 831.366701"  ></path></symbol><symbol id="icon-xiaoxi" viewBox="0 0 1024 1024"><path d="M798.408 569.848v-88.407c0-124.764-89.85-229.568-211.378-259.101v-1.493c0-41.949-31.487-75.954-70.328-75.954-38.838 0-70.328 34.004-70.328 75.954v1.733c-121.026 29.856-210.392 134.428-210.392 258.856v72.751h-0.059c1.453 89.798-70.493 107.41-70.493 155.882s39.292 67.386 87.767 67.386h122.755c1.714 58.393 64.233 105.335 141.109 105.335s139.395-46.938 141.109-105.335h122.438c48.475 0 87.771-18.91 87.771-67.386 0.005-45.503-63.661-64.015-69.969-140.22zM517.151 847.314c-58.389 0-105.722-30.723-105.722-68.625 0-0.413 0.010-0.825 0.026-1.239h211.395c0.010 0.413 0.026 0.822 0.026 1.239-0.005 37.901-47.336 68.625-105.727 68.625zM833.375 712.797c-2.197 22.761-32.25 30.008-51.159 30.008h-530.469c-14.482 1.97-51.705-5.107-51.156-29.513v-6.198c0.483-22.037 54.625-40.822 70.179-118.866v-34.038h-0.557v-66.675c0-119.753 91.718-218.82 211.063-235.378v-29.628c0-23.405 15.775-42.378 35.235-42.378s35.235 18.973 35.235 42.378v29.588c119.477 16.445 211.34 115.569 211.34 235.419v66.674h-0.205v30.694h0.273c0.712 56.066 69.668 102.662 70.217 119.522l0.005 8.391z" fill="#333333" ></path></symbol></svg>',t = (e = document.getElementsByTagName("script"))[e.length - 1].getAttribute("data-injectcss");if (t && !d.__iconfont__svg__cssinject__) {d.__iconfont__svg__cssinject__ = !0;try {document.write("<style>.svgfont {display: inline-block;width: 1em;height: 1em;fill: currentColor;vertical-align: -0.1em;font-size:16px;}</style>");} catch (e) {console && console.log(e);}}!function (e) {if (document.addEventListener) {if (~["complete", "loaded", "interactive"].indexOf(document.readyState)) setTimeout(e, 0);else {var t = function t() {document.removeEventListener("DOMContentLoaded", t, !1), e();};document.addEventListener("DOMContentLoaded", t, !1);}} else document.attachEvent && (o = e, c = d.document, i = !1, (_l = function l() {try {c.documentElement.doScroll("left");} catch (e) {return void setTimeout(_l, 50);}n();})(), c.onreadystatechange = function () {"complete" == c.readyState && (c.onreadystatechange = null, n());});function n() {i || (i = !0, o());}var o, c, i, _l;}(function () {var e, t;(e = document.createElement("div")).innerHTML = n, n = null, (t = e.getElementsByTagName("svg")[0]) && (t.setAttribute("aria-hidden", "true"), t.style.position = "absolute", t.style.width = 0, t.style.height = 0, t.style.overflow = "hidden", function (e, t) {t.firstChild ? function (e, t) {t.parentNode.insertBefore(e, t);}(e, t.firstChild) : t.appendChild(e);}(t, document.body));});}(window);
 });
 
 define('app.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -11461,394 +10880,6 @@ require('./common/main.js')
 });
 require('app.js');
 
-__wxRoute = 'components/mix-advert/vue/mix-advert';__wxRouteBegin = true;__wxAppCurrentFile__ = 'components/mix-advert/vue/mix-advert.js';
-
-define('components/mix-advert/vue/mix-advert.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-"use strict";(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["components/mix-advert/vue/mix-advert"], {
-
-  /***/"../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue":
-  /*!******************************************************************!*\
-                                                                                !*** D:/work/todayNews/components/mix-advert/vue/mix-advert.vue ***!
-                                                                                \******************************************************************/
-  /*! no static exports found */
-  /***/function workTodayNewsComponentsMixAdvertVueMixAdvertVue(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _mix_advert_vue_vue_type_template_id_626bc5da___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! ./mix-advert.vue?vue&type=template&id=626bc5da& */"../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=template&id=626bc5da&");
-    /* harmony import */var _mix_advert_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__( /*! ./mix-advert.vue?vue&type=script&lang=js& */"../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=script&lang=js&");
-    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _mix_advert_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _mix_advert_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key];});})(__WEBPACK_IMPORT_KEY__);}
-    /* harmony import */var _mix_advert_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__( /*! ./mix-advert.vue?vue&type=style&index=0&lang=css& */"../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=style&index=0&lang=css&");
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__( /*! ../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/runtime/componentNormalizer.js */"./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-
-    /* normalize component */
-
-    var component = Object(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-    _mix_advert_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-    _mix_advert_vue_vue_type_template_id_626bc5da___WEBPACK_IMPORTED_MODULE_0__["render"],
-    _mix_advert_vue_vue_type_template_id_626bc5da___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-    false,
-    null,
-    null,
-    null);
-
-
-
-    /* hot reload */
-    if (false) {var api;}
-    component.options.__file = "work/todayNews/components/mix-advert/vue/mix-advert.vue";
-    /* harmony default export */__webpack_exports__["default"] = component.exports;
-
-    /***/},
-
-  /***/"../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=script&lang=js&":
-  /*!*******************************************************************************************!*\
-                                                                                                         !*** D:/work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=script&lang=js& ***!
-                                                                                                         \*******************************************************************************************/
-  /*! no static exports found */
-  /***/function workTodayNewsComponentsMixAdvertVueMixAdvertVueVueTypeScriptLangJs(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./mix-advert.vue?vue&type=script&lang=js& */"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=script&lang=js&");
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
-    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key];});})(__WEBPACK_IMPORT_KEY__);}
-    /* harmony default export */__webpack_exports__["default"] = _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a;
-
-    /***/},
-
-  /***/"../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=style&index=0&lang=css&":
-  /*!***************************************************************************************************!*\
-                                                                                                                 !*** D:/work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=style&index=0&lang=css& ***!
-                                                                                                                 \***************************************************************************************************/
-  /*! no static exports found */
-  /***/function workTodayNewsComponentsMixAdvertVueMixAdvertVueVueTypeStyleIndex0LangCss(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/css-loader??ref--6-oneOf-1-2!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/postcss-loader/src??ref--6-oneOf-1-3!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./mix-advert.vue?vue&type=style&index=0&lang=css& */"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=style&index=0&lang=css&");
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key];});})(__WEBPACK_IMPORT_KEY__);}
-    /* harmony default export */__webpack_exports__["default"] = _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a;
-
-    /***/},
-
-  /***/"../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=template&id=626bc5da&":
-  /*!*************************************************************************************************!*\
-                                                                                                               !*** D:/work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=template&id=626bc5da& ***!
-                                                                                                               \*************************************************************************************************/
-  /*! exports provided: render, staticRenderFns */
-  /***/function workTodayNewsComponentsMixAdvertVueMixAdvertVueVueTypeTemplateId626bc5da(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_template_id_626bc5da___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./mix-advert.vue?vue&type=template&id=626bc5da& */"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=template&id=626bc5da&");
-    /* harmony reexport (safe) */__webpack_require__.d(__webpack_exports__, "render", function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_template_id_626bc5da___WEBPACK_IMPORTED_MODULE_0__["render"];});
-
-    /* harmony reexport (safe) */__webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_advert_vue_vue_type_template_id_626bc5da___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"];});
-
-
-
-    /***/},
-
-  /***/"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=script&lang=js&":
-  /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-                                                                                                                                                                                                                                                                                                                                                !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=script&lang=js& ***!
-                                                                                                                                                                                                                                                                                                                                                \************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-  /*! no static exports found */
-  /***/function node_modulesBabelLoaderLibIndexJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibScriptJsNode_modulesVueLoaderLibIndexJsWorkTodayNewsComponentsMixAdvertVueMixAdvertVueVueTypeScriptLangJs(module, exports, __webpack_require__) {
-
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-    var _mixAdvert = _interopRequireDefault(__webpack_require__( /*! @/components/mix-advert/js/mix-advert.js */"../../../../work/todayNews/components/mix-advert/js/mix-advert.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    var _default = { data: function data() {return { advertState: 0, interval: null, timer: 8 };}, props: { timedown: { type: Number, default: 8 },
-        imageUrl: {
-          type: String,
-          default: '/static/advert.jpg' },
-
-        url: {
-          type: String,
-          default: '/pages/test1/test1' } },
-
-
-      created: function created() {
-        this.timer = this.timedown;
-      },
-      methods: {
-        initAdvert: function initAdvert() {
-
-          var aaa = this.clickEvent;
-          var params = {
-            timer: this.timer,
-            imageUrl: this.imageUrl,
-            url: this.url };
-
-          _mixAdvert.default.initAdvert(params);
-
-
-
-
-
-        } } };exports.default = _default;
-
-    /***/},
-
-  /***/"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=style&index=0&lang=css&":
-  /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-                                                                                                                                                                                                                                                                                                                                                                                                                                                  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=style&index=0&lang=css& ***!
-                                                                                                                                                                                                                                                                                                                                                                                                                                                  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-  /*! no static exports found */
-  /***/function node_modulesMiniCssExtractPluginDistLoaderJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesCssLoaderIndexJsNode_modulesVueLoaderLibLoadersStylePostLoaderJsNode_modulesPostcssLoaderSrcIndexJsNode_modulesVueLoaderLibIndexJsWorkTodayNewsComponentsMixAdvertVueMixAdvertVueVueTypeStyleIndex0LangCss(module, exports, __webpack_require__) {
-
-    // extracted by mini-css-extract-plugin
-
-    /***/},
-
-  /***/"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=template&id=626bc5da&":
-  /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-                                                                                                                                                                                                                                                                                                                                                                        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/components/mix-advert/vue/mix-advert.vue?vue&type=template&id=626bc5da& ***!
-                                                                                                                                                                                                                                                                                                                                                                        \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-  /*! exports provided: render, staticRenderFns */
-  /***/function node_modulesVueLoaderLibLoadersTemplateLoaderJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibTemplateJsNode_modulesVueLoaderLibIndexJsWorkTodayNewsComponentsMixAdvertVueMixAdvertVueVueTypeTemplateId626bc5da(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */__webpack_require__.d(__webpack_exports__, "render", function () {return render;});
-    /* harmony export (binding) */__webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {return staticRenderFns;});
-    var render = function render() {
-      var _vm = this;
-      var _h = _vm.$createElement;
-      var _c = _vm._self._c || _h;
-    };
-    var staticRenderFns = [];
-    render._withStripped = true;
-
-
-
-    /***/} }]);
-
-
-;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
-'components/mix-advert/vue/mix-advert-create-component',
-{
-  'components/mix-advert/vue/mix-advert-create-component': function componentsMixAdvertVueMixAdvertCreateComponent(module, exports, __webpack_require__) {
-    __webpack_require__('./node_modules/@dcloudio/uni-app-plus/dist/index.js')['createComponent'](__webpack_require__("../../../../work/todayNews/components/mix-advert/vue/mix-advert.vue"));
-  } },
-
-[['components/mix-advert/vue/mix-advert-create-component']]]);
-});
-require('components/mix-advert/vue/mix-advert.js');
-__wxRoute = 'components/mix-load-more/mix-load-more';__wxRouteBegin = true;__wxAppCurrentFile__ = 'components/mix-load-more/mix-load-more.js';
-
-define('components/mix-load-more/mix-load-more.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-"use strict";(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["components/mix-load-more/mix-load-more"], {
-
-  /***/"../../../../work/todayNews/components/mix-load-more/mix-load-more.vue":
-  /*!********************************************************************!*\
-                                                                                  !*** D:/work/todayNews/components/mix-load-more/mix-load-more.vue ***!
-                                                                                  \********************************************************************/
-  /*! no static exports found */
-  /***/function workTodayNewsComponentsMixLoadMoreMixLoadMoreVue(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _mix_load_more_vue_vue_type_template_id_10b09eae___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! ./mix-load-more.vue?vue&type=template&id=10b09eae& */"../../../../work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=template&id=10b09eae&");
-    /* harmony import */var _mix_load_more_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__( /*! ./mix-load-more.vue?vue&type=script&lang=js& */"../../../../work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=script&lang=js&");
-    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _mix_load_more_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _mix_load_more_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key];});})(__WEBPACK_IMPORT_KEY__);}
-    /* harmony import */var _mix_load_more_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__( /*! ./mix-load-more.vue?vue&type=style&index=0&lang=css& */"../../../../work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=style&index=0&lang=css&");
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__( /*! ../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/runtime/componentNormalizer.js */"./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-
-    /* normalize component */
-
-    var component = Object(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-    _mix_load_more_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-    _mix_load_more_vue_vue_type_template_id_10b09eae___WEBPACK_IMPORTED_MODULE_0__["render"],
-    _mix_load_more_vue_vue_type_template_id_10b09eae___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-    false,
-    null,
-    null,
-    null);
-
-
-
-    /* hot reload */
-    if (false) {var api;}
-    component.options.__file = "work/todayNews/components/mix-load-more/mix-load-more.vue";
-    /* harmony default export */__webpack_exports__["default"] = component.exports;
-
-    /***/},
-
-  /***/"../../../../work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=script&lang=js&":
-  /*!*********************************************************************************************!*\
-                                                                                                           !*** D:/work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=script&lang=js& ***!
-                                                                                                           \*********************************************************************************************/
-  /*! no static exports found */
-  /***/function workTodayNewsComponentsMixLoadMoreMixLoadMoreVueVueTypeScriptLangJs(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./mix-load-more.vue?vue&type=script&lang=js& */"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=script&lang=js&");
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
-    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key];});})(__WEBPACK_IMPORT_KEY__);}
-    /* harmony default export */__webpack_exports__["default"] = _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a;
-
-    /***/},
-
-  /***/"../../../../work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=style&index=0&lang=css&":
-  /*!*****************************************************************************************************!*\
-                                                                                                                   !*** D:/work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=style&index=0&lang=css& ***!
-                                                                                                                   \*****************************************************************************************************/
-  /*! no static exports found */
-  /***/function workTodayNewsComponentsMixLoadMoreMixLoadMoreVueVueTypeStyleIndex0LangCss(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/css-loader??ref--6-oneOf-1-2!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/postcss-loader/src??ref--6-oneOf-1-3!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./mix-load-more.vue?vue&type=style&index=0&lang=css& */"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=style&index=0&lang=css&");
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key];});})(__WEBPACK_IMPORT_KEY__);}
-    /* harmony default export */__webpack_exports__["default"] = _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a;
-
-    /***/},
-
-  /***/"../../../../work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=template&id=10b09eae&":
-  /*!***************************************************************************************************!*\
-                                                                                                                 !*** D:/work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=template&id=10b09eae& ***!
-                                                                                                                 \***************************************************************************************************/
-  /*! exports provided: render, staticRenderFns */
-  /***/function workTodayNewsComponentsMixLoadMoreMixLoadMoreVueVueTypeTemplateId10b09eae(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_template_id_10b09eae___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./mix-load-more.vue?vue&type=template&id=10b09eae& */"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=template&id=10b09eae&");
-    /* harmony reexport (safe) */__webpack_require__.d(__webpack_exports__, "render", function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_template_id_10b09eae___WEBPACK_IMPORTED_MODULE_0__["render"];});
-
-    /* harmony reexport (safe) */__webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_load_more_vue_vue_type_template_id_10b09eae___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"];});
-
-
-
-    /***/},
-
-  /***/"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=script&lang=js&":
-  /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-                                                                                                                                                                                                                                                                                                                                                  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=script&lang=js& ***!
-                                                                                                                                                                                                                                                                                                                                                  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-  /*! no static exports found */
-  /***/function node_modulesBabelLoaderLibIndexJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibScriptJsNode_modulesVueLoaderLibIndexJsWorkTodayNewsComponentsMixLoadMoreMixLoadMoreVueVueTypeScriptLangJs(module, exports, __webpack_require__) {
-
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    //
-    var _default2 =
-    {
-      name: "mix-load-more",
-      props: {
-        status: {
-          //0加载前，1加载中，2没有更多了
-          type: Number,
-          default: 0 },
-
-        text: {
-          type: Array,
-          default: function _default() {
-            return [
-            '上拉显示更多',
-            '正在加载...',
-            '没有更多数据了'];
-
-          } } } };exports.default = _default2;
-
-    /***/},
-
-  /***/"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=style&index=0&lang=css&":
-  /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-                                                                                                                                                                                                                                                                                                                                                                                                                                                    !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=style&index=0&lang=css& ***!
-                                                                                                                                                                                                                                                                                                                                                                                                                                                    \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-  /*! no static exports found */
-  /***/function node_modulesMiniCssExtractPluginDistLoaderJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesCssLoaderIndexJsNode_modulesVueLoaderLibLoadersStylePostLoaderJsNode_modulesPostcssLoaderSrcIndexJsNode_modulesVueLoaderLibIndexJsWorkTodayNewsComponentsMixLoadMoreMixLoadMoreVueVueTypeStyleIndex0LangCss(module, exports, __webpack_require__) {
-
-    // extracted by mini-css-extract-plugin
-
-    /***/},
-
-  /***/"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=template&id=10b09eae&":
-  /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-                                                                                                                                                                                                                                                                                                                                                                          !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/components/mix-load-more/mix-load-more.vue?vue&type=template&id=10b09eae& ***!
-                                                                                                                                                                                                                                                                                                                                                                          \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-  /*! exports provided: render, staticRenderFns */
-  /***/function node_modulesVueLoaderLibLoadersTemplateLoaderJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibTemplateJsNode_modulesVueLoaderLibIndexJsWorkTodayNewsComponentsMixLoadMoreMixLoadMoreVueVueTypeTemplateId10b09eae(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */__webpack_require__.d(__webpack_exports__, "render", function () {return render;});
-    /* harmony export (binding) */__webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {return staticRenderFns;});
-    var render = function render() {
-      var _vm = this;
-      var _h = _vm.$createElement;
-      var _c = _vm._self._c || _h;
-    };
-    var staticRenderFns = [];
-    render._withStripped = true;
-
-
-
-    /***/} }]);
-
-
-;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
-'components/mix-load-more/mix-load-more-create-component',
-{
-  'components/mix-load-more/mix-load-more-create-component': function componentsMixLoadMoreMixLoadMoreCreateComponent(module, exports, __webpack_require__) {
-    __webpack_require__('./node_modules/@dcloudio/uni-app-plus/dist/index.js')['createComponent'](__webpack_require__("../../../../work/todayNews/components/mix-load-more/mix-load-more.vue"));
-  } },
-
-[['components/mix-load-more/mix-load-more-create-component']]]);
-});
-require('components/mix-load-more/mix-load-more.js');
 __wxRoute = 'components/mix-loading/mix-loading';__wxRouteBegin = true;__wxAppCurrentFile__ = 'components/mix-loading/mix-loading.js';
 
 define('components/mix-loading/mix-loading.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -12028,297 +11059,6 @@ define('components/mix-loading/mix-loading.js',function(require, module, exports
 [['components/mix-loading/mix-loading-create-component']]]);
 });
 require('components/mix-loading/mix-loading.js');
-__wxRoute = 'components/mix-pulldown-refresh/mix-pulldown-refresh';__wxRouteBegin = true;__wxAppCurrentFile__ = 'components/mix-pulldown-refresh/mix-pulldown-refresh.js';
-
-define('components/mix-pulldown-refresh/mix-pulldown-refresh.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-"use strict";(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["components/mix-pulldown-refresh/mix-pulldown-refresh"], {
-
-  /***/"../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue":
-  /*!**********************************************************************************!*\
-                                                                                                !*** D:/work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue ***!
-                                                                                                \**********************************************************************************/
-  /*! no static exports found */
-  /***/function workTodayNewsComponentsMixPulldownRefreshMixPulldownRefreshVue(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _mix_pulldown_refresh_vue_vue_type_template_id_a0c8755e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! ./mix-pulldown-refresh.vue?vue&type=template&id=a0c8755e& */"../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=template&id=a0c8755e&");
-    /* harmony import */var _mix_pulldown_refresh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__( /*! ./mix-pulldown-refresh.vue?vue&type=script&lang=js& */"../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=script&lang=js&");
-    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _mix_pulldown_refresh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _mix_pulldown_refresh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key];});})(__WEBPACK_IMPORT_KEY__);}
-    /* harmony import */var _mix_pulldown_refresh_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__( /*! ./mix-pulldown-refresh.vue?vue&type=style&index=0&lang=css& */"../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=style&index=0&lang=css&");
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__( /*! ../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/runtime/componentNormalizer.js */"./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-
-    /* normalize component */
-
-    var component = Object(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-    _mix_pulldown_refresh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-    _mix_pulldown_refresh_vue_vue_type_template_id_a0c8755e___WEBPACK_IMPORTED_MODULE_0__["render"],
-    _mix_pulldown_refresh_vue_vue_type_template_id_a0c8755e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-    false,
-    null,
-    null,
-    null);
-
-
-
-    /* hot reload */
-    if (false) {var api;}
-    component.options.__file = "work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue";
-    /* harmony default export */__webpack_exports__["default"] = component.exports;
-
-    /***/},
-
-  /***/"../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=script&lang=js&":
-  /*!***********************************************************************************************************!*\
-                                                                                                                         !*** D:/work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=script&lang=js& ***!
-                                                                                                                         \***********************************************************************************************************/
-  /*! no static exports found */
-  /***/function workTodayNewsComponentsMixPulldownRefreshMixPulldownRefreshVueVueTypeScriptLangJs(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./mix-pulldown-refresh.vue?vue&type=script&lang=js& */"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=script&lang=js&");
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
-    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key];});})(__WEBPACK_IMPORT_KEY__);}
-    /* harmony default export */__webpack_exports__["default"] = _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a;
-
-    /***/},
-
-  /***/"../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=style&index=0&lang=css&":
-  /*!*******************************************************************************************************************!*\
-                                                                                                                                 !*** D:/work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=style&index=0&lang=css& ***!
-                                                                                                                                 \*******************************************************************************************************************/
-  /*! no static exports found */
-  /***/function workTodayNewsComponentsMixPulldownRefreshMixPulldownRefreshVueVueTypeStyleIndex0LangCss(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/css-loader??ref--6-oneOf-1-2!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/postcss-loader/src??ref--6-oneOf-1-3!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./mix-pulldown-refresh.vue?vue&type=style&index=0&lang=css& */"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=style&index=0&lang=css&");
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-    /* harmony reexport (unknown) */for (var __WEBPACK_IMPORT_KEY__ in _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) {if (__WEBPACK_IMPORT_KEY__ !== 'default') (function (key) {__webpack_require__.d(__webpack_exports__, key, function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key];});})(__WEBPACK_IMPORT_KEY__);}
-    /* harmony default export */__webpack_exports__["default"] = _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a;
-
-    /***/},
-
-  /***/"../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=template&id=a0c8755e&":
-  /*!*****************************************************************************************************************!*\
-                                                                                                                               !*** D:/work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=template&id=a0c8755e& ***!
-                                                                                                                               \*****************************************************************************************************************/
-  /*! exports provided: render, staticRenderFns */
-  /***/function workTodayNewsComponentsMixPulldownRefreshMixPulldownRefreshVueVueTypeTemplateIdA0c8755e(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony import */var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_template_id_a0c8755e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__( /*! -!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./mix-pulldown-refresh.vue?vue&type=template&id=a0c8755e& */"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=template&id=a0c8755e&");
-    /* harmony reexport (safe) */__webpack_require__.d(__webpack_exports__, "render", function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_template_id_a0c8755e___WEBPACK_IMPORTED_MODULE_0__["render"];});
-
-    /* harmony reexport (safe) */__webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mix_pulldown_refresh_vue_vue_type_template_id_a0c8755e___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"];});
-
-
-
-    /***/},
-
-  /***/"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=script&lang=js&":
-  /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-                                                                                                                                                                                                                                                                                                                                                                !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=script&lang=js& ***!
-                                                                                                                                                                                                                                                                                                                                                                \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-  /*! no static exports found */
-  /***/function node_modulesBabelLoaderLibIndexJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibScriptJsNode_modulesVueLoaderLibIndexJsWorkTodayNewsComponentsMixPulldownRefreshMixPulldownRefreshVueVueTypeScriptLangJs(module, exports, __webpack_require__) {
-
-    "use strict";
-    /* WEBPACK VAR INJECTION */(function (uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-      //
-
-      var startY,moveY,windowHeight = 500,platform;
-      var timeDiff = 0;
-      var touchending;var _default =
-      {
-
-        props: {
-          top: {
-            //距离顶部距离，单位upx
-            type: Number,
-            default: 0 } },
-
-
-        data: function data() {
-          return {
-            pageDeviation: 0, //下偏移量
-            pageTransition: 0, //回弹过渡时间
-            refreshReady: false, //进入刷新准备状态
-            refreshing: false // 进入刷新状态
-          };
-        },
-        computed: {
-          pageTop: function pageTop() {
-            return uni.upx2px(this.top);
-          } },
-
-        created: function created() {
-          uni.getSystemInfo({
-            success: function success(e) {
-              console.log(e, " at components\\mix-pulldown-refresh\\mix-pulldown-refresh.vue:74");
-              platform = e.platform;
-              windowHeight = e.windowHeight;
-            } });
-
-        },
-        methods: {
-          pageTouchstart: function pageTouchstart(e) {
-            touchending = false;
-            this.pageTransition = 0;
-            startY = e.touches[0].pageY;
-          },
-          pageTouchmove: function pageTouchmove(e) {
-            if (touchending) {
-              return;
-            }
-            moveY = (e.touches[0].pageY - startY) * 0.4;
-            if (moveY >= 0) {
-              this.pageDeviation = moveY;
-
-              this.$emit('setEnableScroll', false);
-            }
-            if (moveY >= 50 && this.refreshReady === false) {
-              this.refreshReady = true;
-            } else if (moveY < 50 && this.refreshReady === true) {
-              this.refreshReady = false;
-            }
-            if (platform === 'ios' && e.touches[0].pageY > windowHeight + 10) {
-              this.pageTouchend();
-            }
-          },
-          pageTouchend: function pageTouchend() {
-            touchending = true;
-            if (moveY === 0) {
-              return;
-            }
-            this.pageTransition = 0.3;
-            if (moveY >= 50) {
-              this.startPulldownRefresh();
-            } else {
-              this.pageDeviation = 0;
-            }
-
-            if (this.refreshReady === true) {
-              this.refreshReady = false;
-            }
-            //修复下拉一点回弹后页面无法滚动的bug
-            this.$emit('setEnableScroll', true);
-            startY = moveY = 0;
-          },
-          //开启下拉刷新
-          startPulldownRefresh: function startPulldownRefresh() {
-            if (+new Date() - timeDiff < 100) {
-              return;
-            }
-            timeDiff = +new Date();
-            this.refreshing = true;
-            this.pageDeviation = uni.upx2px(90);
-            this.$emit('refresh');
-          },
-          //结束下拉刷新
-          endPulldownRefresh: function endPulldownRefresh() {
-            this.refreshing = false;
-            this.pageDeviation = uni.upx2px(0);
-            //this.$emit('setEnableScroll', true);
-          } } };exports.default = _default;
-      /* WEBPACK VAR INJECTION */}).call(this, __webpack_require__( /*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */"./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]);
-
-    /***/},
-
-  /***/"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=style&index=0&lang=css&":
-  /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=style&index=0&lang=css& ***!
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-  /*! no static exports found */
-  /***/function node_modulesMiniCssExtractPluginDistLoaderJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesCssLoaderIndexJsNode_modulesVueLoaderLibLoadersStylePostLoaderJsNode_modulesPostcssLoaderSrcIndexJsNode_modulesVueLoaderLibIndexJsWorkTodayNewsComponentsMixPulldownRefreshMixPulldownRefreshVueVueTypeStyleIndex0LangCss(module, exports, __webpack_require__) {
-
-    // extracted by mini-css-extract-plugin
-
-    /***/},
-
-  /***/"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=template&id=a0c8755e&":
-  /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-                                                                                                                                                                                                                                                                                                                                                                                        !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue?vue&type=template&id=a0c8755e& ***!
-                                                                                                                                                                                                                                                                                                                                                                                        \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-  /*! exports provided: render, staticRenderFns */
-  /***/function node_modulesVueLoaderLibLoadersTemplateLoaderJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibTemplateJsNode_modulesVueLoaderLibIndexJsWorkTodayNewsComponentsMixPulldownRefreshMixPulldownRefreshVueVueTypeTemplateIdA0c8755e(module, __webpack_exports__, __webpack_require__) {
-
-    "use strict";
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */__webpack_require__.d(__webpack_exports__, "render", function () {return render;});
-    /* harmony export (binding) */__webpack_require__.d(__webpack_exports__, "staticRenderFns", function () {return staticRenderFns;});
-    var render = function render() {
-      var _vm = this;
-      var _h = _vm.$createElement;
-      var _c = _vm._self._c || _h;
-    };
-    var staticRenderFns = [];
-    render._withStripped = true;
-
-
-
-    /***/} }]);
-
-
-;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
-'components/mix-pulldown-refresh/mix-pulldown-refresh-create-component',
-{
-  'components/mix-pulldown-refresh/mix-pulldown-refresh-create-component': function componentsMixPulldownRefreshMixPulldownRefreshCreateComponent(module, exports, __webpack_require__) {
-    __webpack_require__('./node_modules/@dcloudio/uni-app-plus/dist/index.js')['createComponent'](__webpack_require__("../../../../work/todayNews/components/mix-pulldown-refresh/mix-pulldown-refresh.vue"));
-  } },
-
-[['components/mix-pulldown-refresh/mix-pulldown-refresh-create-component']]]);
-});
-require('components/mix-pulldown-refresh/mix-pulldown-refresh.js');
 
 __wxRoute = 'pages/details/details';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/details/details.js';
 
@@ -12995,7 +11735,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+//
+//
 //
 //
 //
@@ -13050,9 +11792,12 @@ var _default =
   methods: {
     goLogin: function goLogin() {
       if (!this.login) {
-        console.log('点击前往登录', " at pages\\ucenter\\ucenter.vue:56");
+        uni.navigateTo({
+          url: "/pages/ucenter/login" });
+
       }
     } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
 
 /***/ }),
 
@@ -13495,6 +12240,282 @@ render._withStripped = true
 },[["../../../../work/todayNews/main.js?{\"page\":\"pages%2Ftask%2Findex\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/task/index.js');
+__wxRoute = 'pages/ucenter/login';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/ucenter/login.js';
+
+define('pages/ucenter/login.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/ucenter/login"],{
+
+/***/ "../../../../work/todayNews/pages/ucenter/login.vue":
+/*!*************************************************!*\
+  !*** D:/work/todayNews/pages/ucenter/login.vue ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _login_vue_vue_type_template_id_dc706464___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./login.vue?vue&type=template&id=dc706464& */ "../../../../work/todayNews/pages/ucenter/login.vue?vue&type=template&id=dc706464&");
+/* harmony import */ var _login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./login.vue?vue&type=script&lang=js& */ "../../../../work/todayNews/pages/ucenter/login.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _login_vue_vue_type_template_id_dc706464___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _login_vue_vue_type_template_id_dc706464___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "work/todayNews/pages/ucenter/login.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "../../../../work/todayNews/pages/ucenter/login.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** D:/work/todayNews/pages/ucenter/login.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./login.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/pages/ucenter/login.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "../../../../work/todayNews/pages/ucenter/login.vue?vue&type=template&id=dc706464&":
+/*!********************************************************************************!*\
+  !*** D:/work/todayNews/pages/ucenter/login.vue?vue&type=template&id=dc706464& ***!
+  \********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_template_id_dc706464___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../Program Files/HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./login.vue?vue&type=template&id=dc706464& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/pages/ucenter/login.vue?vue&type=template&id=dc706464&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_template_id_dc706464___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_Program_Files_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_template_id_dc706464___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/pages/ucenter/login.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/pages/ucenter/login.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+var _default =
+{
+  data: function data() {
+    return {
+      // 账号登录部分数据
+      account: {
+        username: '',
+        password: '' },
+
+      usernameReg: /^[A-Za-z0-9]+$/,
+      passwordReg: /^\w+$/,
+      loginAccount: false,
+      // 手机登录部分数据
+      mobile: {
+        phone: '',
+        code: '' },
+
+      phoneReg: /^[1](([3][0-9])|([4][5-9])|([5][0-3,5-9])|([6][5,6])|([7][0-8])|([8][0-9])|([9][1,8,9]))[0-9]{8}$/,
+      loginMobile: false,
+      // 验证码
+      safety: {
+        time: 60,
+        state: false,
+        interval: '' },
+
+      status: true // true手机登录,false账号登录
+    };
+  },
+
+  watch: {
+    /**
+            * 监听手机登录数值
+            */
+    mobile: {
+      handler: function handler(newValue) {
+        if (this.phoneReg.test(newValue.phone) && newValue.code.length === 6) {
+          this.loginMobile = true;
+        } else {
+          this.loginMobile = false;
+        }
+      },
+      deep: true },
+
+    /**
+                     * 监听账号登录数值
+                     */
+    account: {
+      handler: function handler(newValue) {
+        if (this.usernameReg.test(newValue.username) && newValue.username.length >= 8 && this.passwordReg.test(
+        newValue.password) && newValue.password.length >= 8) {
+          this.loginAccount = true;
+        } else {
+          this.loginAccount = false;
+        }
+      },
+      deep: true } },
+
+
+
+  methods: {
+    /**
+              * 登录按钮点击执行
+              */
+    fnLogin: function fnLogin() {
+      if (this.status) {
+        console.log(JSON.stringify(this.mobile), " at pages\\ucenter\\login.vue:80");
+      } else {
+        console.log(JSON.stringify(this.account), " at pages\\ucenter\\login.vue:82");
+      }
+    },
+    /**
+        * 获取验证码
+        */
+    fnGetPhoneCode: function fnGetPhoneCode() {var _this = this;
+      if (this.phoneReg.test(this.mobile.phone)) {
+        uni.showToast({
+          title: "正在发送验证码",
+          icon: "loading",
+          success: function success() {
+            // 成功后显示倒计时60s后可在点击
+            _this.safety.state = true;
+            // 倒计时
+            _this.safety.interval = setInterval(function () {
+              if (_this.safety.time-- <= 0) {
+                _this.safety.time = 60;
+                _this.safety.state = false;
+                clearInterval(_this.safety.interval);
+              }
+            }, 1000);
+            uni.showToast({
+              title: "发送成功",
+              icon: "success" });
+
+          } });
+
+      } else {
+        uni.showToast({
+          title: "手机号不正确",
+          icon: "none" });
+
+      }
+    },
+    /**
+        * 改变登录方式状态 reset作为重置标识
+        */
+    fnChangeStatus: function fnChangeStatus(reset) {
+      // 手机登录部分
+      this.mobile = {
+        phone: '',
+        code: '' };
+
+      this.loginMobile = false;
+      // 账号登录部分
+      this.account = {
+        username: '',
+        password: '' };
+
+      this.loginAccount = false;
+      // 验证码时间状态还原
+      clearInterval(this.safety.interval);
+      this.safety.time = 60;
+      this.safety.state = false;
+      if (!reset) {
+        // 可以延迟3毫秒后切换
+        this.status = !this.status;
+      }
+    },
+    /**
+        * 跳转注册页面
+        */
+    fnRegisterWin: function fnRegisterWin() {
+      uni.navigateTo({
+        url: "/pages/user/register/register" });
+
+      /**
+                                                  * 改变状态重置，跳转不会摧毁实例
+                                                  */
+      this.fnChangeStatus(true);
+    } },
+
+
+  beforeDestroy: function beforeDestroy() {
+    /**
+                                            * 关闭页面清除轮询器
+                                            */
+    clearInterval(this.safety.interval);
+  } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ "./node_modules/@dcloudio/uni-app-plus/dist/index.js")["default"]))
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../../work/todayNews/pages/ucenter/login.vue?vue&type=template&id=dc706464&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!D:/work/todayNews/pages/ucenter/login.vue?vue&type=template&id=dc706464& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ })
+
+},[["../../../../work/todayNews/main.js?{\"page\":\"pages%2Fucenter%2Flogin\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/ucenter/login.js');
 __wxRoute = 'pages/index/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/index/index.js';
 
 define('pages/index/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){

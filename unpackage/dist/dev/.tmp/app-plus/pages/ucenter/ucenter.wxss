@@ -28,7 +28,6 @@ page {
 	padding: 20rpx;
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
-	background-color: #2F85FC;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 	-webkit-flex-direction: row;
@@ -43,13 +42,13 @@ page {
 	opacity: 0.8;
 }
 .logo-img {
-	width: 150rpx;
-	height: 150rpx;
-	-webkit-border-radius: 150rpx;
-	        border-radius: 150rpx;
+	width: 80rpx;
+	height: 80rpx;
+	-webkit-border-radius: 80rpx;
+	        border-radius: 80rpx;
 }
 .logo-title {
-	height: 150rpx;
+	height: 80rpx;
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
 	    -ms-flex: 1;
@@ -70,14 +69,9 @@ page {
 	margin-left: 20rpx;
 }
 .uer-name {
-	height: 60rpx;
-	line-height: 60rpx;
-	font-size: 38rpx;
-	color: #FFFFFF;
-}
-.go-login.navigat-arrow {
-	font-size: 38rpx;
-	color: #FFFFFF;
+	height: 30rpx;
+	line-height: 30rpx;
+	font-size: 30rpx;
 }
 .login-title {
 	height: 150rpx;

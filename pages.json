@@ -12,7 +12,9 @@
               }
             ]
           }
-        }
+        },
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
       }
     },
     {
@@ -26,19 +28,29 @@
     {
       "path": "pages/ucenter/ucenter",
       "style": {
-        "navigationBarTitleText": "个人中心"
+        "app-plus": {  
+            "titleNView": false  
+        } 
       }
     },
     {
       "path": "pages/video/list",
       "style": {
-        "navigationBarTitleText": "视频"
+        
       }
     },
     {
       "path": "pages/task/index",
       "style": {
-        "navigationBarTitleText": "任务"
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/ucenter/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
       }
     }
   ],

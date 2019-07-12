@@ -1,10 +1,12 @@
 <template>
 	<view class="center">
+    <view class="nav-top">
+      
+    </view>
 		<view class="logo" @click="goLogin" :hover-class="!login ? 'logo-hover' : ''">
 			<image class="logo-img" :src="login ? uerInfo.avatarUrl :avatarUrl"></image>
 			<view class="logo-title">
 				<text class="uer-name">Hi，{{login ? uerInfo.name : '您未登录'}}</text>
-				<text class="go-login navigat-arrow" v-if="!login">&#xe65e;</text>
 			</view>
 		</view>
 		<view class="center-list">
@@ -53,7 +55,9 @@
 		methods: {
 			goLogin() {
 				if (!this.login) {
-					console.log('点击前往登录');
+					uni.navigateTo({
+						url: `/pages/ucenter/login`
+					})
 				}
 			}
 		}
@@ -86,7 +90,6 @@
 		height: 240upx;
 		padding: 20upx;
 		box-sizing: border-box;
-		background-color: #2F85FC;
 		flex-direction: row;
 		align-items: center;
 	}
@@ -96,13 +99,13 @@
 	}
 
 	.logo-img {
-		width: 150upx;
-		height: 150upx;
-		border-radius: 150upx;
+		width: 80upx;
+		height: 80upx;
+		border-radius: 80upx;
 	}
 
 	.logo-title {
-		height: 150upx;
+		height: 80upx;
 		flex: 1;
 		align-items: center;
 		justify-content: space-between;
@@ -111,15 +114,9 @@
 	}
 
 	.uer-name {
-		height: 60upx;
-		line-height: 60upx;
-		font-size: 38upx;
-		color: #FFFFFF;
-	}
-
-	.go-login.navigat-arrow {
-		font-size: 38upx;
-		color: #FFFFFF;
+		height: 30upx;
+		line-height: 30upx;
+		font-size: 30upx;
 	}
 
 	.login-title {
