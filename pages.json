@@ -36,13 +36,21 @@
     {
       "path": "pages/video/list",
       "style": {
-        
+        "navigationBarTitleText": "小视频"
+      }
+    },
+    {
+      "path": "pages/video/details",
+      "style": {
+        "titleNView": false  
       }
     },
     {
       "path": "pages/task/index",
       "style": {
-        "navigationBarBackgroundColor": "#FFFFFF"
+        "navigationBarTitleText": "任务",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "navigationBarTextStyle": "black"
       }
     },
     {
@@ -84,7 +92,7 @@
   "globalStyle": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "趣闻多",
-    "navigationBarBackgroundColor": "#ec706b",
+    "navigationBarBackgroundColor": "#FE970F",
     "backgroundColor": "#f8f8f8"
   }
 }

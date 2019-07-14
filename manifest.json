@@ -1,5 +1,5 @@
 {
-    "name" : "新闻资讯",
+    "name" : "趣闻多",
     "appid" : "__UNI__1E99193",
     "description" : "基于uni-app开发的新闻/资讯类App",
     "versionName" : "1.0.0",
@@ -68,7 +68,7 @@
     },
     "h5" : {
         "router" : {
-            "base" : "/demo/news/website/"
+            "base" : "/news/"
         },
         "template" : "h5.template.html"
     }

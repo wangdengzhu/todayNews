@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/details/details",
     "pages/details/videoDetails",
     "pages/ucenter/ucenter",
     "pages/video/list",
+    "pages/video/details",
     "pages/task/index",
     "pages/ucenter/login"
   ],
@@ -11,7 +13,7 @@
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "趣闻多",
-    "navigationBarBackgroundColor": "#ec706b",
+    "navigationBarBackgroundColor": "#FE970F",
     "backgroundColor": "#f8f8f8"
   },
   "tabBar": {
@@ -46,34 +48,12 @@
       }
     ]
   },
-  "nvue": {
-    "pages": {
-      "pages/index/index.html": {
-        "window": {
-          "usingComponents": {},
-          "navigationBarBackgroundColor": "#FFFFFF",
-          "navigationBarTextStyle": "black",
-          "titleNView": {
-            "buttons": [
-              {
-                "text": "",
-                "fontSrc": "/static/font/iconfont.ttf",
-                "fontSize": "22px",
-                "float": "left"
-              }
-            ]
-          }
-        }
-      }
-    },
-    "entryPagePath": "pages/index/index"
-  },
   "nvueCompiler": "uni-app",
   "splashscreen": {
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "新闻资讯",
+  "appname": "趣闻多",
   "compilerVersion": "2.0.1",
   "usingComponents": {}
 }

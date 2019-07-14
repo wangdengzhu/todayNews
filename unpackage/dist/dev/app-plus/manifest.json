@@ -5,7 +5,7 @@
     "iPad"
   ],
   "id": "__UNI__1E99193",
-  "name": "新闻资讯",
+  "name": "趣闻多",
   "version": {
     "name": "1.0.0",
     "code": "100"
@@ -40,7 +40,7 @@
     "statusbar": {
       "immersed": "supportedDevice",
       "style": "light",
-      "background": "#ec706b"
+      "background": "#FE970F"
     },
     "usingComponents": true,
     "nvueCompiler": "uni-app",
@@ -92,6 +92,14 @@
       "compilerVersion": "2.0.1",
       "control": "v8",
       "nvueCompiler": "uni-app"
+    },
+    "secondwebview": {
+      "id": "1",
+      "launch_path": "__uniappview.html",
+      "kernel": "WKWebview",
+      "mode": "child",
+      "top": 0,
+      "bottom": 56
     }
   }
 }

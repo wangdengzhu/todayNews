@@ -1,183 +1,162 @@
 <template>
-	<view class="center">
-		<view class="logo" @click="goLogin" :hover-class="!login ? 'logo-hover' : ''">
-			<image class="logo-img" :src="login ? uerInfo.avatarUrl :avatarUrl"></image>
-			<view class="logo-title">
-				<text class="uer-name">Hi，{{login ? uerInfo.name : '您未登录'}}</text>
-				<text class="go-login navigat-arrow" v-if="!login">&#xe65e;</text>
+	<view class="content">
+		<!-- 
+			* 下拉刷新和加载更多组件使用示例
+			* 下拉刷新组件仅支持h5和小程序端，app端受限制目前没想到好的实现。
+		-->
+		<!--
+			* 下拉刷新组件
+			* @property {Number} top 距离顶部的距离
+			* @event {Function} onPulldownReresh 刷新时调用的方法
+			* @event {Function} setEnableScroll 设置组件内scroll-view是否允许滚动
+		-->
+		<mix-pulldown-refresh 
+			ref="mixPulldownRefresh" 
+			:top="0" 
+			@refresh="onPulldownReresh"
+		>
+			
+			<view class="scroll-wrapper">
+        <view class="list-wrap">
+          <view class="list-item" v-for="(item, i) in list" :key="i" @click="navToDetail(item.id)">
+            <image class="img" mode="scaleToFill" :src="item.images"></image>
+          	<view class="list-con">
+              <view class="play-title">{{item.title}}</view>
+              <view class="play-handle">
+                <view class="play">
+                  <image class="img" mode="scaleToFill" src="../../static/play-white.png"></image>
+                  <text>212</text>
+                </view>
+                <view class="thumbs">
+                  <image class="img" mode="scaleToFill" src="../../static/thumbs-up.png"></image>
+                  <text>212</text>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+				<!--
+					* 上滑加载更多组件
+					* @property {Number} status = [0|1|2] 0加载前，1加载中，2没有更多了
+				-->
+				<mix-load-more :status="loadMoreStatus"></mix-load-more>
+					
 			</view>
-		</view>
-		<view class="center-list">
-			<view class="center-list-item border-bottom">
-				<text class="list-icon">&#xe60f;</text>
-				<text class="list-text">账号管理</text>
-				<text class="navigat-arrow">&#xe65e;</text>
-			</view>
-			<view class="center-list-item">
-				<text class="list-icon">&#xe639;</text>
-				<text class="list-text">新消息通知</text>
-				<text class="navigat-arrow">&#xe65e;</text>
-			</view>
-		</view>
-		<view class="center-list">
-			<view class="center-list-item border-bottom">
-				<text class="list-icon">&#xe60b;</text>
-				<text class="list-text">帮助与反馈</text>
-				<text class="navigat-arrow">&#xe65e;</text>
-			</view>
-			<view class="center-list-item">
-				<text class="list-icon">&#xe65f;</text>
-				<text class="list-text">服务条款及隐私</text>
-				<text class="navigat-arrow">&#xe65e;</text>
-			</view>
-		</view>
-		<view class="center-list">
-			<view class="center-list-item">
-				<text class="list-icon">&#xe614;</text>
-				<text class="list-text">关于应用</text>
-				<text class="navigat-arrow">&#xe65e;</text>
-			</view>
-		</view>
+			
+		</mix-pulldown-refresh>
 	</view>
 </template>
 
 <script>
+	import mixPulldownRefresh from '@/components/mix-pulldown-refresh/mix-pulldown-refresh';
+	import mixLoadMore from '@/components/mix-load-more/mix-load-more';
+  import json from '@/videojson.js'
 	export default {
+		components: {
+			mixPulldownRefresh,
+			mixLoadMore
+		},
 		data() {
 			return {
-				login: false,
-				avatarUrl: '/static/logo.png',
-				uerInfo: {}
+				list: [],
+				loadMoreStatus: 0,
 			}
 		},
+		onLoad() {
+			this.loadData('add');
+		},
+		
+		onReachBottom(){
+			//上滑加载
+			this.loadData('add');
+		},
 		methods: {
-			goLogin() {
-				if (!this.login) {
-					console.log('点击前往登录');
+      navToDetail(id) {
+        uni.navigateTo({
+        	url: `/pages/video/details?id=${id}`
+        })
+      },
+			loadData(type){
+				if(type === 'add'){
+					this.loadMoreStatus = 1;
 				}
-			}
+				setTimeout(()=>{
+					if(type === 'refresh'){
+						this.list = [];
+					}
+					
+					this.list = json.videoList;
+					
+					if(type === 'add'){
+						this.loadMoreStatus = 0;
+					}
+					if(type === 'refresh'){
+						this.$refs.mixPulldownRefresh && this.$refs.mixPulldownRefresh.endPulldownRefresh();
+					}
+				}, 1000)
+				
+			},
+			
+			
+			//下拉刷新
+			onPulldownReresh(){
+				this.loadData('refresh');
+			},
 		}
 	}
 </script>
 
-<style>
-	@font-face {
-		font-family: texticons;
-		font-weight: normal;
-		font-style: normal;
-		src: url('https://at.alicdn.com/t/font_984210_5cs13ndgqsn.ttf') format('truetype');
-	}
-
-	page,
-	view {
-		display: flex;
-	}
-
-	page {
+<style lang="scss">
+	page, .content{
 		background-color: #f8f8f8;
 	}
-
-	.center {
-		flex-direction: column;
-	}
-
-	.logo {
-		width: 750upx;
-		height: 240upx;
-		padding: 20upx;
-		box-sizing: border-box;
-		background-color: #2F85FC;
-		flex-direction: row;
-		align-items: center;
-	}
-
-	.logo-hover {
-		opacity: 0.8;
-	}
-
-	.logo-img {
-		width: 150upx;
-		height: 150upx;
-		border-radius: 150upx;
-	}
-
-	.logo-title {
-		height: 150upx;
-		flex: 1;
-		align-items: center;
-		justify-content: space-between;
-		flex-direction: row;
-		margin-left: 20upx;
-	}
-
-	.uer-name {
-		height: 60upx;
-		line-height: 60upx;
-		font-size: 38upx;
-		color: #FFFFFF;
-	}
-
-	.go-login.navigat-arrow {
-		font-size: 38upx;
-		color: #FFFFFF;
-	}
-
-	.login-title {
-		height: 150upx;
-		align-items: self-start;
-		justify-content: center;
-		flex-direction: column;
-		margin-left: 20upx;
-	}
-
-	.center-list {
-		background-color: #FFFFFF;
-		margin-top: 20upx;
-		width: 750upx;
-		flex-direction: column;
-	}
-
-	.center-list-item {
-		height: 90upx;
-		width: 750upx;
-		box-sizing: border-box;
-		flex-direction: row;
-		padding: 0upx 20upx;
-	}
-
-	.border-bottom {
-		border-bottom-width: 1upx;
-		border-color: #c8c7cc;
-		border-bottom-style: solid;
-	}
-
-	.list-icon {
-		width: 40upx;
-		height: 90upx;
-		line-height: 90upx;
-		font-size: 34upx;
-		color: #2F85FC;
-		text-align: center;
-		font-family: texticons;
-		margin-right: 20upx;
-	}
-
-	.list-text {
-		height: 90upx;
-		line-height: 90upx;
-		font-size: 34upx;
-		color: #555;
-		flex: 1;
-		text-align: left;
-	}
-
-	.navigat-arrow {
-		height: 90upx;
-		width: 40upx;
-		line-height: 90upx;
-		font-size: 34upx;
-		color: #555;
-		text-align: right;
-		font-family: texticons;
-	}
+  .list-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .list-item{
+      position: relative;
+    	margin-bottom: 8upx;
+      width: 371upx;
+    	height: 400upx;
+    	font-size: 28upx;
+    	color: #555;
+    	background: #fff;
+      .img{
+        width: 371upx;
+        height: 400upx;
+      }
+      .list-con{
+        position: absolute;
+        bottom: 0;
+        z-index: 999;
+        padding: 15upx;
+        width: 340upx;
+        .play-title{
+          margin-bottom: 8upx;
+          color: #fff;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+        }
+        .play-handle{
+          display: flex;
+          justify-content: space-between;
+          .img{
+            width: 30upx;
+            height: 30upx;
+            vertical-align: middle;
+          }
+          text{
+            margin-left: 10upx;
+            vertical-align: middle;
+            color: #fff;
+            font-size: 26upx;
+          }
+        }
+      }
+    }
+  }
+	
 </style>

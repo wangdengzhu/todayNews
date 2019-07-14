@@ -1,0 +1,19 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/font/iconfont.ttf",
+        "fontSize": "22px",
+        "float": "left"
+      }
+    ]
+  },
+  "usingComponents": {
+    "mix-pulldown-refresh": "/components/mix-pulldown-refresh/mix-pulldown-refresh",
+    "mix-load-more": "/components/mix-load-more/mix-load-more",
+    "mix-advert": "/components/mix-advert/vue/mix-advert"
+  }
+}
